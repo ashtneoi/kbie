@@ -57,22 +57,22 @@ do_col:	; scanbuf entry bits:
 	ifc INDF0, 7 ; if no change
 	 bra set_layer
 
-	; key was just pressed; start holdoff
-	movlw 0n1000_0000
-	movwf INDF0
+	; key was just released; start holdoff
 	movlw HOLDOFF
-	iorwf INDF0
-	bra checklayer
+	movwf INDF0 ; clear 7:6
+	bra do_key
 
 key_held:	; key is held right now
 
 	ifs INDF0, 7 ; if no change
 	 bra set_layer
 
-	; key was just released; start holdoff
+	; key was just pressed; start holdoff
+	movlw 0n1000_0000
+	movwf INDF0
 	movlw HOLDOFF
-	movwf INDF0 ; clear 7:6
-	bra checklayer
+	iorwf INDF0
+	bra do_key
 
 	; ...
 
