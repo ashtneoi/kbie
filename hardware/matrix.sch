@@ -1,0 +1,2762 @@
+EESchema Schematic File Version 4
+LIBS:keyboard2018-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1850 4550 0    50   Input ~ 0
+ROW1
+Text HLabel 1850 3750 0    50   Input ~ 0
+ROW3
+Text HLabel 1850 2950 0    50   Input ~ 0
+ROW5
+Text HLabel 1850 2150 0    50   Input ~ 0
+ROW7
+Text HLabel 1850 1350 0    50   Input ~ 0
+ROW9
+Text HLabel 3050 5350 3    50   Output ~ 0
+COL1
+Text HLabel 4150 5350 3    50   Output ~ 0
+COL2
+Text HLabel 5250 5350 3    50   Output ~ 0
+COL3
+$Comp
+L Switch:SW_Push SW_A1
+U 1 1 5B88246D
+P 2100 4750
+F 0 "SW_A1" V 2100 4702 50  0000 R CNN
+F 1 "SW_Push" V 2055 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 4950 50  0001 C CNN
+F 3 "" H 2100 4950 50  0001 C CNN
+	1    2100 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A1
+U 1 1 5B882874
+P 2250 4950
+F 0 "D_A1" H 2250 5074 50  0000 C CNN
+F 1 "D" H 2250 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2250 4950 50  0001 C CNN
+F 3 "~" H 2250 4950 50  0001 C CNN
+	1    2250 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 4950 2400 4950
+$Comp
+L Switch:SW_Push SW_A2
+U 1 1 5B882B24
+P 2650 4750
+F 0 "SW_A2" V 2650 4702 50  0000 R CNN
+F 1 "SW_Push" V 2605 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 4950 50  0001 C CNN
+F 3 "" H 2650 4950 50  0001 C CNN
+	1    2650 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A2
+U 1 1 5B882B2B
+P 2800 4950
+F 0 "D_A2" H 2800 5074 50  0000 C CNN
+F 1 "D" H 2800 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2800 4950 50  0001 C CNN
+F 3 "~" H 2800 4950 50  0001 C CNN
+	1    2800 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 4950 2950 4950
+$Comp
+L Switch:SW_Push SW_A3
+U 1 1 5B882B62
+P 3200 4750
+F 0 "SW_A3" V 3200 4702 50  0000 R CNN
+F 1 "SW_Push" V 3155 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 4950 50  0001 C CNN
+F 3 "" H 3200 4950 50  0001 C CNN
+	1    3200 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A3
+U 1 1 5B882B69
+P 3350 4950
+F 0 "D_A3" H 3350 5074 50  0000 C CNN
+F 1 "D" H 3350 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3350 4950 50  0001 C CNN
+F 3 "~" H 3350 4950 50  0001 C CNN
+	1    3350 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 4950 3500 4950
+$Comp
+L Switch:SW_Push SW_A4
+U 1 1 5B882BD6
+P 3750 4750
+F 0 "SW_A4" V 3750 4702 50  0000 R CNN
+F 1 "SW_Push" V 3705 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 4950 50  0001 C CNN
+F 3 "" H 3750 4950 50  0001 C CNN
+	1    3750 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A4
+U 1 1 5B882BDD
+P 3900 4950
+F 0 "D_A4" H 3900 5074 50  0000 C CNN
+F 1 "D" H 3900 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3900 4950 50  0001 C CNN
+F 3 "~" H 3900 4950 50  0001 C CNN
+	1    3900 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 4950 4050 4950
+$Comp
+L Switch:SW_Push SW_A5
+U 1 1 5B882D8D
+P 4300 4750
+F 0 "SW_A5" V 4300 4702 50  0000 R CNN
+F 1 "SW_Push" V 4255 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 4950 50  0001 C CNN
+F 3 "" H 4300 4950 50  0001 C CNN
+	1    4300 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A5
+U 1 1 5B882D94
+P 4450 4950
+F 0 "D_A5" H 4450 5074 50  0000 C CNN
+F 1 "D" H 4450 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4450 4950 50  0001 C CNN
+F 3 "~" H 4450 4950 50  0001 C CNN
+	1    4450 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 4950 4600 4950
+$Comp
+L Switch:SW_Push SW_A6
+U 1 1 5B882E5A
+P 4850 4750
+F 0 "SW_A6" V 4850 4702 50  0000 R CNN
+F 1 "SWA6" V 4805 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 4950 50  0001 C CNN
+F 3 "" H 4850 4950 50  0001 C CNN
+	1    4850 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A6
+U 1 1 5B882E61
+P 5000 4950
+F 0 "D_A6" H 5000 5074 50  0000 C CNN
+F 1 "D" H 5000 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 4950 50  0001 C CNN
+F 3 "~" H 5000 4950 50  0001 C CNN
+	1    5000 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4950 5150 4950
+$Comp
+L Switch:SW_Push SW_A7
+U 1 1 5B882F52
+P 5400 4750
+F 0 "SW_A7" V 5400 4702 50  0000 R CNN
+F 1 "SW_Push" V 5355 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 4950 50  0001 C CNN
+F 3 "" H 5400 4950 50  0001 C CNN
+	1    5400 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A7
+U 1 1 5B882F59
+P 5550 4950
+F 0 "D_A7" H 5550 5074 50  0000 C CNN
+F 1 "D" H 5550 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5550 4950 50  0001 C CNN
+F 3 "~" H 5550 4950 50  0001 C CNN
+	1    5550 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 4950 5700 4950
+$Comp
+L Switch:SW_Push SW_A8
+U 1 1 5B883024
+P 5950 4750
+F 0 "SW_A8" V 5950 4702 50  0000 R CNN
+F 1 "SW_Push" V 5905 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 4950 50  0001 C CNN
+F 3 "" H 5950 4950 50  0001 C CNN
+	1    5950 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A8
+U 1 1 5B88302B
+P 6100 4950
+F 0 "D_A8" H 6100 5074 50  0000 C CNN
+F 1 "D" H 6100 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6100 4950 50  0001 C CNN
+F 3 "~" H 6100 4950 50  0001 C CNN
+	1    6100 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 4950 6250 4950
+$Comp
+L Switch:SW_Push SW_A9
+U 1 1 5B88313B
+P 6500 4750
+F 0 "SW_A9" V 6500 4702 50  0000 R CNN
+F 1 "SW_Push" V 6455 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 4950 50  0001 C CNN
+F 3 "" H 6500 4950 50  0001 C CNN
+	1    6500 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A9
+U 1 1 5B883142
+P 6650 4950
+F 0 "D_A9" H 6650 5074 50  0000 C CNN
+F 1 "D" H 6650 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 4950 50  0001 C CNN
+F 3 "~" H 6650 4950 50  0001 C CNN
+	1    6650 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 4950 6800 4950
+$Comp
+L Switch:SW_Push SW_A10
+U 1 1 5B883202
+P 7050 4750
+F 0 "SW_A10" V 7050 4702 50  0000 R CNN
+F 1 "SW_Push" V 7005 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 4950 50  0001 C CNN
+F 3 "" H 7050 4950 50  0001 C CNN
+	1    7050 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A10
+U 1 1 5B883209
+P 7200 4950
+F 0 "D_A10" H 7200 5074 50  0000 C CNN
+F 1 "D" H 7200 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7200 4950 50  0001 C CNN
+F 3 "~" H 7200 4950 50  0001 C CNN
+	1    7200 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7450 4950 7350 4950
+$Comp
+L Switch:SW_Push SW_A11
+U 1 1 5B883338
+P 7600 4750
+F 0 "SW_A11" V 7600 4702 50  0000 R CNN
+F 1 "SW_Push" V 7555 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 4950 50  0001 C CNN
+F 3 "" H 7600 4950 50  0001 C CNN
+	1    7600 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A11
+U 1 1 5B88333F
+P 7750 4950
+F 0 "D_A11" H 7750 5074 50  0000 C CNN
+F 1 "D" H 7750 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7750 4950 50  0001 C CNN
+F 3 "~" H 7750 4950 50  0001 C CNN
+	1    7750 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 4950 7900 4950
+$Comp
+L Switch:SW_Push SW_A12
+U 1 1 5B88343C
+P 8150 4750
+F 0 "SW_A12" V 8150 4702 50  0000 R CNN
+F 1 "SW_Push" V 8105 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 4950 50  0001 C CNN
+F 3 "" H 8150 4950 50  0001 C CNN
+	1    8150 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A12
+U 1 1 5B883443
+P 8300 4950
+F 0 "D_A12" H 8300 5074 50  0000 C CNN
+F 1 "D" H 8300 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8300 4950 50  0001 C CNN
+F 3 "~" H 8300 4950 50  0001 C CNN
+	1    8300 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8550 4950 8450 4950
+$Comp
+L Switch:SW_Push SW_A13
+U 1 1 5B8837F1
+P 8700 4750
+F 0 "SW_A13" V 8700 4702 50  0000 R CNN
+F 1 "SW_Push" V 8655 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 4950 50  0001 C CNN
+F 3 "" H 8700 4950 50  0001 C CNN
+	1    8700 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A13
+U 1 1 5B8837F8
+P 8850 4950
+F 0 "D_A13" H 8850 5074 50  0000 C CNN
+F 1 "D" H 8850 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8850 4950 50  0001 C CNN
+F 3 "~" H 8850 4950 50  0001 C CNN
+	1    8850 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 4950 9000 4950
+$Comp
+L Switch:SW_Push SW_A14
+U 1 1 5B88394E
+P 9250 4750
+F 0 "SW_A14" V 9250 4702 50  0000 R CNN
+F 1 "SW_Push" V 9205 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 4950 50  0001 C CNN
+F 3 "" H 9250 4950 50  0001 C CNN
+	1    9250 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A14
+U 1 1 5B883955
+P 9400 4950
+F 0 "D_A14" H 9400 5074 50  0000 C CNN
+F 1 "D" H 9400 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9400 4950 50  0001 C CNN
+F 3 "~" H 9400 4950 50  0001 C CNN
+	1    9400 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9650 4950 9550 4950
+$Comp
+L Switch:SW_Push SW_B1
+U 1 1 5B88A739
+P 2100 3950
+F 0 "SW_B1" V 2100 3902 50  0000 R CNN
+F 1 "SW_Push" V 2055 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 4150 50  0001 C CNN
+F 3 "" H 2100 4150 50  0001 C CNN
+	1    2100 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B1
+U 1 1 5B88A740
+P 2250 4150
+F 0 "D_B1" H 2250 4274 50  0000 C CNN
+F 1 "D" H 2250 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2250 4150 50  0001 C CNN
+F 3 "~" H 2250 4150 50  0001 C CNN
+	1    2250 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 4150 2400 4150
+$Comp
+L Switch:SW_Push SW_B2
+U 1 1 5B88A748
+P 2650 3950
+F 0 "SW_B2" V 2650 3902 50  0000 R CNN
+F 1 "SW_Push" V 2605 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 4150 50  0001 C CNN
+F 3 "" H 2650 4150 50  0001 C CNN
+	1    2650 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B2
+U 1 1 5B88A74F
+P 2800 4150
+F 0 "D_B2" H 2800 4274 50  0000 C CNN
+F 1 "D" H 2800 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2800 4150 50  0001 C CNN
+F 3 "~" H 2800 4150 50  0001 C CNN
+	1    2800 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 4150 2950 4150
+$Comp
+L Switch:SW_Push SW_B3
+U 1 1 5B88A757
+P 3200 3950
+F 0 "SW_B3" V 3200 3902 50  0000 R CNN
+F 1 "SW_Push" V 3155 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 4150 50  0001 C CNN
+F 3 "" H 3200 4150 50  0001 C CNN
+	1    3200 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B3
+U 1 1 5B88A75E
+P 3350 4150
+F 0 "D_B3" H 3350 4274 50  0000 C CNN
+F 1 "D" H 3350 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3350 4150 50  0001 C CNN
+F 3 "~" H 3350 4150 50  0001 C CNN
+	1    3350 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 4150 3500 4150
+$Comp
+L Switch:SW_Push SW_B4
+U 1 1 5B88A766
+P 3750 3950
+F 0 "SW_B4" V 3750 3902 50  0000 R CNN
+F 1 "SW_Push" V 3705 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 4150 50  0001 C CNN
+F 3 "" H 3750 4150 50  0001 C CNN
+	1    3750 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B4
+U 1 1 5B88A76D
+P 3900 4150
+F 0 "D_B4" H 3900 4274 50  0000 C CNN
+F 1 "D" H 3900 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3900 4150 50  0001 C CNN
+F 3 "~" H 3900 4150 50  0001 C CNN
+	1    3900 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 4150 4050 4150
+$Comp
+L Switch:SW_Push SW_B5
+U 1 1 5B88A775
+P 4300 3950
+F 0 "SW_B5" V 4300 3902 50  0000 R CNN
+F 1 "SW_Push" V 4255 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 4150 50  0001 C CNN
+F 3 "" H 4300 4150 50  0001 C CNN
+	1    4300 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B5
+U 1 1 5B88A77C
+P 4450 4150
+F 0 "D_B5" H 4450 4274 50  0000 C CNN
+F 1 "D" H 4450 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4450 4150 50  0001 C CNN
+F 3 "~" H 4450 4150 50  0001 C CNN
+	1    4450 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 4150 4600 4150
+$Comp
+L Switch:SW_Push SW_B6
+U 1 1 5B88A784
+P 4850 3950
+F 0 "SW_B6" V 4850 3902 50  0000 R CNN
+F 1 "SWA6" V 4805 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 4150 50  0001 C CNN
+F 3 "" H 4850 4150 50  0001 C CNN
+	1    4850 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B6
+U 1 1 5B88A78B
+P 5000 4150
+F 0 "D_B6" H 5000 4274 50  0000 C CNN
+F 1 "D" H 5000 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 4150 50  0001 C CNN
+F 3 "~" H 5000 4150 50  0001 C CNN
+	1    5000 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4150 5150 4150
+$Comp
+L Switch:SW_Push SW_B7
+U 1 1 5B88A793
+P 5400 3950
+F 0 "SW_B7" V 5400 3902 50  0000 R CNN
+F 1 "SW_Push" V 5355 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 4150 50  0001 C CNN
+F 3 "" H 5400 4150 50  0001 C CNN
+	1    5400 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B7
+U 1 1 5B88A79A
+P 5550 4150
+F 0 "D_B7" H 5550 4274 50  0000 C CNN
+F 1 "D" H 5550 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5550 4150 50  0001 C CNN
+F 3 "~" H 5550 4150 50  0001 C CNN
+	1    5550 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 4150 5700 4150
+$Comp
+L Switch:SW_Push SW_B8
+U 1 1 5B88A7A2
+P 5950 3950
+F 0 "SW_B8" V 5950 3902 50  0000 R CNN
+F 1 "SW_Push" V 5905 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 4150 50  0001 C CNN
+F 3 "" H 5950 4150 50  0001 C CNN
+	1    5950 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B8
+U 1 1 5B88A7A9
+P 6100 4150
+F 0 "D_B8" H 6100 4274 50  0000 C CNN
+F 1 "D" H 6100 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6100 4150 50  0001 C CNN
+F 3 "~" H 6100 4150 50  0001 C CNN
+	1    6100 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 4150 6250 4150
+$Comp
+L Switch:SW_Push SW_B9
+U 1 1 5B88A7B1
+P 6500 3950
+F 0 "SW_B9" V 6500 3902 50  0000 R CNN
+F 1 "SW_Push" V 6455 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 4150 50  0001 C CNN
+F 3 "" H 6500 4150 50  0001 C CNN
+	1    6500 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B9
+U 1 1 5B88A7B8
+P 6650 4150
+F 0 "D_B9" H 6650 4274 50  0000 C CNN
+F 1 "D" H 6650 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 4150 50  0001 C CNN
+F 3 "~" H 6650 4150 50  0001 C CNN
+	1    6650 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 4150 6800 4150
+$Comp
+L Switch:SW_Push SW_B10
+U 1 1 5B88A7C0
+P 7050 3950
+F 0 "SW_B10" V 7050 3902 50  0000 R CNN
+F 1 "SW_Push" V 7005 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 4150 50  0001 C CNN
+F 3 "" H 7050 4150 50  0001 C CNN
+	1    7050 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B10
+U 1 1 5B88A7C7
+P 7200 4150
+F 0 "D_B10" H 7200 4274 50  0000 C CNN
+F 1 "D" H 7200 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7200 4150 50  0001 C CNN
+F 3 "~" H 7200 4150 50  0001 C CNN
+	1    7200 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7450 4150 7350 4150
+$Comp
+L Switch:SW_Push SW_B11
+U 1 1 5B88A7CF
+P 7600 3950
+F 0 "SW_B11" V 7600 3902 50  0000 R CNN
+F 1 "SW_Push" V 7555 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 4150 50  0001 C CNN
+F 3 "" H 7600 4150 50  0001 C CNN
+	1    7600 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B11
+U 1 1 5B88A7D6
+P 7750 4150
+F 0 "D_B11" H 7750 4274 50  0000 C CNN
+F 1 "D" H 7750 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7750 4150 50  0001 C CNN
+F 3 "~" H 7750 4150 50  0001 C CNN
+	1    7750 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 4150 7900 4150
+$Comp
+L Switch:SW_Push SW_B12
+U 1 1 5B88A7DE
+P 8150 3950
+F 0 "SW_B12" V 8150 3902 50  0000 R CNN
+F 1 "SW_Push" V 8105 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 4150 50  0001 C CNN
+F 3 "" H 8150 4150 50  0001 C CNN
+	1    8150 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B12
+U 1 1 5B88A7E5
+P 8300 4150
+F 0 "D_B12" H 8300 4274 50  0000 C CNN
+F 1 "D" H 8300 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8300 4150 50  0001 C CNN
+F 3 "~" H 8300 4150 50  0001 C CNN
+	1    8300 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8550 4150 8450 4150
+$Comp
+L Switch:SW_Push SW_B13
+U 1 1 5B88A7ED
+P 8700 3950
+F 0 "SW_B13" V 8700 3902 50  0000 R CNN
+F 1 "SW_Push" V 8655 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 4150 50  0001 C CNN
+F 3 "" H 8700 4150 50  0001 C CNN
+	1    8700 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B13
+U 1 1 5B88A7F4
+P 8850 4150
+F 0 "D_B13" H 8850 4274 50  0000 C CNN
+F 1 "D" H 8850 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8850 4150 50  0001 C CNN
+F 3 "~" H 8850 4150 50  0001 C CNN
+	1    8850 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 4150 9000 4150
+$Comp
+L Switch:SW_Push SW_B14
+U 1 1 5B88A7FC
+P 9250 3950
+F 0 "SW_B14" V 9250 3902 50  0000 R CNN
+F 1 "SW_Push" V 9205 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 4150 50  0001 C CNN
+F 3 "" H 9250 4150 50  0001 C CNN
+	1    9250 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B14
+U 1 1 5B88A803
+P 9400 4150
+F 0 "D_B14" H 9400 4274 50  0000 C CNN
+F 1 "D" H 9400 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9400 4150 50  0001 C CNN
+F 3 "~" H 9400 4150 50  0001 C CNN
+	1    9400 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9650 4150 9550 4150
+$Comp
+L Switch:SW_Push SW_C1
+U 1 1 5B88B24C
+P 2100 3150
+F 0 "SW_C1" V 2100 3102 50  0000 R CNN
+F 1 "SW_Push" V 2055 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 3350 50  0001 C CNN
+F 3 "" H 2100 3350 50  0001 C CNN
+	1    2100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C1
+U 1 1 5B88B253
+P 2250 3350
+F 0 "D_C1" H 2250 3474 50  0000 C CNN
+F 1 "D" H 2250 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2250 3350 50  0001 C CNN
+F 3 "~" H 2250 3350 50  0001 C CNN
+	1    2250 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 3350 2400 3350
+$Comp
+L Switch:SW_Push SW_C2
+U 1 1 5B88B25B
+P 2650 3150
+F 0 "SW_C2" V 2650 3102 50  0000 R CNN
+F 1 "SW_Push" V 2605 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 3350 50  0001 C CNN
+F 3 "" H 2650 3350 50  0001 C CNN
+	1    2650 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C2
+U 1 1 5B88B262
+P 2800 3350
+F 0 "D_C2" H 2800 3474 50  0000 C CNN
+F 1 "D" H 2800 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2800 3350 50  0001 C CNN
+F 3 "~" H 2800 3350 50  0001 C CNN
+	1    2800 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 3350 2950 3350
+$Comp
+L Switch:SW_Push SW_C3
+U 1 1 5B88B26A
+P 3200 3150
+F 0 "SW_C3" V 3200 3102 50  0000 R CNN
+F 1 "SW_Push" V 3155 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 3350 50  0001 C CNN
+F 3 "" H 3200 3350 50  0001 C CNN
+	1    3200 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C3
+U 1 1 5B88B271
+P 3350 3350
+F 0 "D_C3" H 3350 3474 50  0000 C CNN
+F 1 "D" H 3350 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3350 3350 50  0001 C CNN
+F 3 "~" H 3350 3350 50  0001 C CNN
+	1    3350 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 3350 3500 3350
+$Comp
+L Switch:SW_Push SW_C4
+U 1 1 5B88B279
+P 3750 3150
+F 0 "SW_C4" V 3750 3102 50  0000 R CNN
+F 1 "SW_Push" V 3705 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 3350 50  0001 C CNN
+F 3 "" H 3750 3350 50  0001 C CNN
+	1    3750 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C4
+U 1 1 5B88B280
+P 3900 3350
+F 0 "D_C4" H 3900 3474 50  0000 C CNN
+F 1 "D" H 3900 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3900 3350 50  0001 C CNN
+F 3 "~" H 3900 3350 50  0001 C CNN
+	1    3900 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 3350 4050 3350
+$Comp
+L Switch:SW_Push SW_C5
+U 1 1 5B88B288
+P 4300 3150
+F 0 "SW_C5" V 4300 3102 50  0000 R CNN
+F 1 "SW_Push" V 4255 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 3350 50  0001 C CNN
+F 3 "" H 4300 3350 50  0001 C CNN
+	1    4300 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C5
+U 1 1 5B88B28F
+P 4450 3350
+F 0 "D_C5" H 4450 3474 50  0000 C CNN
+F 1 "D" H 4450 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4450 3350 50  0001 C CNN
+F 3 "~" H 4450 3350 50  0001 C CNN
+	1    4450 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 3350 4600 3350
+$Comp
+L Switch:SW_Push SW_C6
+U 1 1 5B88B297
+P 4850 3150
+F 0 "SW_C6" V 4850 3102 50  0000 R CNN
+F 1 "SWA6" V 4805 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 3350 50  0001 C CNN
+F 3 "" H 4850 3350 50  0001 C CNN
+	1    4850 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C6
+U 1 1 5B88B29E
+P 5000 3350
+F 0 "D_C6" H 5000 3474 50  0000 C CNN
+F 1 "D" H 5000 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 3350 50  0001 C CNN
+F 3 "~" H 5000 3350 50  0001 C CNN
+	1    5000 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 3350 5150 3350
+$Comp
+L Switch:SW_Push SW_C7
+U 1 1 5B88B2A6
+P 5400 3150
+F 0 "SW_C7" V 5400 3102 50  0000 R CNN
+F 1 "SW_Push" V 5355 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 3350 50  0001 C CNN
+F 3 "" H 5400 3350 50  0001 C CNN
+	1    5400 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C7
+U 1 1 5B88B2AD
+P 5550 3350
+F 0 "D_C7" H 5550 3474 50  0000 C CNN
+F 1 "D" H 5550 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5550 3350 50  0001 C CNN
+F 3 "~" H 5550 3350 50  0001 C CNN
+	1    5550 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 3350 5700 3350
+$Comp
+L Switch:SW_Push SW_C8
+U 1 1 5B88B2B5
+P 5950 3150
+F 0 "SW_C8" V 5950 3102 50  0000 R CNN
+F 1 "SW_Push" V 5905 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 3350 50  0001 C CNN
+F 3 "" H 5950 3350 50  0001 C CNN
+	1    5950 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C8
+U 1 1 5B88B2BC
+P 6100 3350
+F 0 "D_C8" H 6100 3474 50  0000 C CNN
+F 1 "D" H 6100 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6100 3350 50  0001 C CNN
+F 3 "~" H 6100 3350 50  0001 C CNN
+	1    6100 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 3350 6250 3350
+$Comp
+L Switch:SW_Push SW_C9
+U 1 1 5B88B2C4
+P 6500 3150
+F 0 "SW_C9" V 6500 3102 50  0000 R CNN
+F 1 "SW_Push" V 6455 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 3350 50  0001 C CNN
+F 3 "" H 6500 3350 50  0001 C CNN
+	1    6500 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C9
+U 1 1 5B88B2CB
+P 6650 3350
+F 0 "D_C9" H 6650 3474 50  0000 C CNN
+F 1 "D" H 6650 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 3350 50  0001 C CNN
+F 3 "~" H 6650 3350 50  0001 C CNN
+	1    6650 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 3350 6800 3350
+$Comp
+L Switch:SW_Push SW_C10
+U 1 1 5B88B2D3
+P 7050 3150
+F 0 "SW_C10" V 7050 3102 50  0000 R CNN
+F 1 "SW_Push" V 7005 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 3350 50  0001 C CNN
+F 3 "" H 7050 3350 50  0001 C CNN
+	1    7050 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C10
+U 1 1 5B88B2DA
+P 7200 3350
+F 0 "D_C10" H 7200 3474 50  0000 C CNN
+F 1 "D" H 7200 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7200 3350 50  0001 C CNN
+F 3 "~" H 7200 3350 50  0001 C CNN
+	1    7200 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7450 3350 7350 3350
+$Comp
+L Switch:SW_Push SW_C11
+U 1 1 5B88B2E2
+P 7600 3150
+F 0 "SW_C11" V 7600 3102 50  0000 R CNN
+F 1 "SW_Push" V 7555 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 3350 50  0001 C CNN
+F 3 "" H 7600 3350 50  0001 C CNN
+	1    7600 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C11
+U 1 1 5B88B2E9
+P 7750 3350
+F 0 "D_C11" H 7750 3474 50  0000 C CNN
+F 1 "D" H 7750 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7750 3350 50  0001 C CNN
+F 3 "~" H 7750 3350 50  0001 C CNN
+	1    7750 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 3350 7900 3350
+$Comp
+L Switch:SW_Push SW_C12
+U 1 1 5B88B2F1
+P 8150 3150
+F 0 "SW_C12" V 8150 3102 50  0000 R CNN
+F 1 "SW_Push" V 8105 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 3350 50  0001 C CNN
+F 3 "" H 8150 3350 50  0001 C CNN
+	1    8150 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C12
+U 1 1 5B88B2F8
+P 8300 3350
+F 0 "D_C12" H 8300 3474 50  0000 C CNN
+F 1 "D" H 8300 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8300 3350 50  0001 C CNN
+F 3 "~" H 8300 3350 50  0001 C CNN
+	1    8300 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8550 3350 8450 3350
+$Comp
+L Switch:SW_Push SW_C13
+U 1 1 5B88B300
+P 8700 3150
+F 0 "SW_C13" V 8700 3102 50  0000 R CNN
+F 1 "SW_Push" V 8655 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 3350 50  0001 C CNN
+F 3 "" H 8700 3350 50  0001 C CNN
+	1    8700 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C13
+U 1 1 5B88B307
+P 8850 3350
+F 0 "D_C13" H 8850 3474 50  0000 C CNN
+F 1 "D" H 8850 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8850 3350 50  0001 C CNN
+F 3 "~" H 8850 3350 50  0001 C CNN
+	1    8850 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 3350 9000 3350
+$Comp
+L Switch:SW_Push SW_C14
+U 1 1 5B88B30F
+P 9250 3150
+F 0 "SW_C14" V 9250 3102 50  0000 R CNN
+F 1 "SW_Push" V 9205 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 3350 50  0001 C CNN
+F 3 "" H 9250 3350 50  0001 C CNN
+	1    9250 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C14
+U 1 1 5B88B316
+P 9400 3350
+F 0 "D_C14" H 9400 3474 50  0000 C CNN
+F 1 "D" H 9400 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9400 3350 50  0001 C CNN
+F 3 "~" H 9400 3350 50  0001 C CNN
+	1    9400 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9650 3350 9550 3350
+$Comp
+L Switch:SW_Push SW_D1
+U 1 1 5B88C57E
+P 2100 2350
+F 0 "SW_D1" V 2100 2302 50  0000 R CNN
+F 1 "SW_Push" V 2055 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 2550 50  0001 C CNN
+F 3 "" H 2100 2550 50  0001 C CNN
+	1    2100 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D1
+U 1 1 5B88C585
+P 2250 2550
+F 0 "D_D1" H 2250 2674 50  0000 C CNN
+F 1 "D" H 2250 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2250 2550 50  0001 C CNN
+F 3 "~" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 2550 2400 2550
+$Comp
+L Switch:SW_Push SW_D2
+U 1 1 5B88C58D
+P 2650 2350
+F 0 "SW_D2" V 2650 2302 50  0000 R CNN
+F 1 "SW_Push" V 2605 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 2550 50  0001 C CNN
+F 3 "" H 2650 2550 50  0001 C CNN
+	1    2650 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D2
+U 1 1 5B88C594
+P 2800 2550
+F 0 "D_D2" H 2800 2674 50  0000 C CNN
+F 1 "D" H 2800 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2800 2550 50  0001 C CNN
+F 3 "~" H 2800 2550 50  0001 C CNN
+	1    2800 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 2550 2950 2550
+$Comp
+L Switch:SW_Push SW_D3
+U 1 1 5B88C59C
+P 3200 2350
+F 0 "SW_D3" V 3200 2302 50  0000 R CNN
+F 1 "SW_Push" V 3155 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 2550 50  0001 C CNN
+F 3 "" H 3200 2550 50  0001 C CNN
+	1    3200 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D3
+U 1 1 5B88C5A3
+P 3350 2550
+F 0 "D_D3" H 3350 2674 50  0000 C CNN
+F 1 "D" H 3350 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3350 2550 50  0001 C CNN
+F 3 "~" H 3350 2550 50  0001 C CNN
+	1    3350 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 2550 3500 2550
+$Comp
+L Switch:SW_Push SW_D4
+U 1 1 5B88C5AB
+P 3750 2350
+F 0 "SW_D4" V 3750 2302 50  0000 R CNN
+F 1 "SW_Push" V 3705 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 2550 50  0001 C CNN
+F 3 "" H 3750 2550 50  0001 C CNN
+	1    3750 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D4
+U 1 1 5B88C5B2
+P 3900 2550
+F 0 "D_D4" H 3900 2674 50  0000 C CNN
+F 1 "D" H 3900 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3900 2550 50  0001 C CNN
+F 3 "~" H 3900 2550 50  0001 C CNN
+	1    3900 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 2550 4050 2550
+$Comp
+L Switch:SW_Push SW_D5
+U 1 1 5B88C5BA
+P 4300 2350
+F 0 "SW_D5" V 4300 2302 50  0000 R CNN
+F 1 "SW_Push" V 4255 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 2550 50  0001 C CNN
+F 3 "" H 4300 2550 50  0001 C CNN
+	1    4300 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D5
+U 1 1 5B88C5C1
+P 4450 2550
+F 0 "D_D5" H 4450 2674 50  0000 C CNN
+F 1 "D" H 4450 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4450 2550 50  0001 C CNN
+F 3 "~" H 4450 2550 50  0001 C CNN
+	1    4450 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 2550 4600 2550
+$Comp
+L Switch:SW_Push SW_D6
+U 1 1 5B88C5C9
+P 4850 2350
+F 0 "SW_D6" V 4850 2302 50  0000 R CNN
+F 1 "SWA6" V 4805 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 2550 50  0001 C CNN
+F 3 "" H 4850 2550 50  0001 C CNN
+	1    4850 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D6
+U 1 1 5B88C5D0
+P 5000 2550
+F 0 "D_D6" H 5000 2674 50  0000 C CNN
+F 1 "D" H 5000 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 2550 50  0001 C CNN
+F 3 "~" H 5000 2550 50  0001 C CNN
+	1    5000 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 2550 5150 2550
+$Comp
+L Switch:SW_Push SW_D7
+U 1 1 5B88C5D8
+P 5400 2350
+F 0 "SW_D7" V 5400 2302 50  0000 R CNN
+F 1 "SW_Push" V 5355 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 2550 50  0001 C CNN
+F 3 "" H 5400 2550 50  0001 C CNN
+	1    5400 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D7
+U 1 1 5B88C5DF
+P 5550 2550
+F 0 "D_D7" H 5550 2674 50  0000 C CNN
+F 1 "D" H 5550 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5550 2550 50  0001 C CNN
+F 3 "~" H 5550 2550 50  0001 C CNN
+	1    5550 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2550 5700 2550
+$Comp
+L Switch:SW_Push SW_D8
+U 1 1 5B88C5E7
+P 5950 2350
+F 0 "SW_D8" V 5950 2302 50  0000 R CNN
+F 1 "SW_Push" V 5905 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 2550 50  0001 C CNN
+F 3 "" H 5950 2550 50  0001 C CNN
+	1    5950 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D8
+U 1 1 5B88C5EE
+P 6100 2550
+F 0 "D_D8" H 6100 2674 50  0000 C CNN
+F 1 "D" H 6100 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6100 2550 50  0001 C CNN
+F 3 "~" H 6100 2550 50  0001 C CNN
+	1    6100 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 2550 6250 2550
+$Comp
+L Switch:SW_Push SW_D9
+U 1 1 5B88C5F6
+P 6500 2350
+F 0 "SW_D9" V 6500 2302 50  0000 R CNN
+F 1 "SW_Push" V 6455 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 2550 50  0001 C CNN
+F 3 "" H 6500 2550 50  0001 C CNN
+	1    6500 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D9
+U 1 1 5B88C5FD
+P 6650 2550
+F 0 "D_D9" H 6650 2674 50  0000 C CNN
+F 1 "D" H 6650 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 2550 50  0001 C CNN
+F 3 "~" H 6650 2550 50  0001 C CNN
+	1    6650 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 2550 6800 2550
+$Comp
+L Switch:SW_Push SW_D10
+U 1 1 5B88C605
+P 7050 2350
+F 0 "SW_D10" V 7050 2302 50  0000 R CNN
+F 1 "SW_Push" V 7005 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 2550 50  0001 C CNN
+F 3 "" H 7050 2550 50  0001 C CNN
+	1    7050 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D10
+U 1 1 5B88C60C
+P 7200 2550
+F 0 "D_D10" H 7200 2674 50  0000 C CNN
+F 1 "D" H 7200 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7200 2550 50  0001 C CNN
+F 3 "~" H 7200 2550 50  0001 C CNN
+	1    7200 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7450 2550 7350 2550
+$Comp
+L Switch:SW_Push SW_D11
+U 1 1 5B88C614
+P 7600 2350
+F 0 "SW_D11" V 7600 2302 50  0000 R CNN
+F 1 "SW_Push" V 7555 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 2550 50  0001 C CNN
+F 3 "" H 7600 2550 50  0001 C CNN
+	1    7600 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D11
+U 1 1 5B88C61B
+P 7750 2550
+F 0 "D_D11" H 7750 2674 50  0000 C CNN
+F 1 "D" H 7750 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7750 2550 50  0001 C CNN
+F 3 "~" H 7750 2550 50  0001 C CNN
+	1    7750 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 2550 7900 2550
+$Comp
+L Switch:SW_Push SW_D12
+U 1 1 5B88C623
+P 8150 2350
+F 0 "SW_D12" V 8150 2302 50  0000 R CNN
+F 1 "SW_Push" V 8105 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 2550 50  0001 C CNN
+F 3 "" H 8150 2550 50  0001 C CNN
+	1    8150 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D12
+U 1 1 5B88C62A
+P 8300 2550
+F 0 "D_D12" H 8300 2674 50  0000 C CNN
+F 1 "D" H 8300 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8300 2550 50  0001 C CNN
+F 3 "~" H 8300 2550 50  0001 C CNN
+	1    8300 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8550 2550 8450 2550
+$Comp
+L Switch:SW_Push SW_D13
+U 1 1 5B88C632
+P 8700 2350
+F 0 "SW_D13" V 8700 2302 50  0000 R CNN
+F 1 "SW_Push" V 8655 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 2550 50  0001 C CNN
+F 3 "" H 8700 2550 50  0001 C CNN
+	1    8700 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D13
+U 1 1 5B88C639
+P 8850 2550
+F 0 "D_D13" H 8850 2674 50  0000 C CNN
+F 1 "D" H 8850 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8850 2550 50  0001 C CNN
+F 3 "~" H 8850 2550 50  0001 C CNN
+	1    8850 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 2550 9000 2550
+$Comp
+L Switch:SW_Push SW_D14
+U 1 1 5B88C641
+P 9250 2350
+F 0 "SW_D14" V 9250 2302 50  0000 R CNN
+F 1 "SW_Push" V 9205 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 2550 50  0001 C CNN
+F 3 "" H 9250 2550 50  0001 C CNN
+	1    9250 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D14
+U 1 1 5B88C648
+P 9400 2550
+F 0 "D_D14" H 9400 2674 50  0000 C CNN
+F 1 "D" H 9400 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9400 2550 50  0001 C CNN
+F 3 "~" H 9400 2550 50  0001 C CNN
+	1    9400 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9650 2550 9550 2550
+$Comp
+L Switch:SW_Push SW_E1
+U 1 1 5B88F566
+P 2100 1550
+F 0 "SW_E1" V 2100 1502 50  0000 R CNN
+F 1 "SW_Push" V 2055 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 1750 50  0001 C CNN
+F 3 "" H 2100 1750 50  0001 C CNN
+	1    2100 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E1
+U 1 1 5B88F56D
+P 2250 1750
+F 0 "D_E1" H 2250 1874 50  0000 C CNN
+F 1 "D" H 2250 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2250 1750 50  0001 C CNN
+F 3 "~" H 2250 1750 50  0001 C CNN
+	1    2250 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 1750 2400 1750
+$Comp
+L Device:D D_E2
+U 1 1 5B88F57C
+P 2800 1750
+F 0 "D_E2" H 2800 1874 50  0000 C CNN
+F 1 "D" H 2800 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2800 1750 50  0001 C CNN
+F 3 "~" H 2800 1750 50  0001 C CNN
+	1    2800 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 1750 2950 1750
+$Comp
+L Switch:SW_Push SW_E3
+U 1 1 5B88F584
+P 3200 1550
+F 0 "SW_E3" V 3200 1502 50  0000 R CNN
+F 1 "SW_Push" V 3155 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 1750 50  0001 C CNN
+F 3 "" H 3200 1750 50  0001 C CNN
+	1    3200 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E3
+U 1 1 5B88F58B
+P 3350 1750
+F 0 "D_E3" H 3350 1874 50  0000 C CNN
+F 1 "D" H 3350 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3350 1750 50  0001 C CNN
+F 3 "~" H 3350 1750 50  0001 C CNN
+	1    3350 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 1750 3500 1750
+$Comp
+L Switch:SW_Push SW_E4
+U 1 1 5B88F593
+P 3750 1550
+F 0 "SW_E4" V 3750 1502 50  0000 R CNN
+F 1 "SW_Push" V 3705 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 1750 50  0001 C CNN
+F 3 "" H 3750 1750 50  0001 C CNN
+	1    3750 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E4
+U 1 1 5B88F59A
+P 3900 1750
+F 0 "D_E4" H 3900 1874 50  0000 C CNN
+F 1 "D" H 3900 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3900 1750 50  0001 C CNN
+F 3 "~" H 3900 1750 50  0001 C CNN
+	1    3900 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 1750 4050 1750
+$Comp
+L Switch:SW_Push SW_E5
+U 1 1 5B88F5A2
+P 4300 1550
+F 0 "SW_E5" V 4300 1502 50  0000 R CNN
+F 1 "SW_Push" V 4255 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 1750 50  0001 C CNN
+F 3 "" H 4300 1750 50  0001 C CNN
+	1    4300 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E5
+U 1 1 5B88F5A9
+P 4450 1750
+F 0 "D_E5" H 4450 1874 50  0000 C CNN
+F 1 "D" H 4450 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4450 1750 50  0001 C CNN
+F 3 "~" H 4450 1750 50  0001 C CNN
+	1    4450 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 1750 4600 1750
+$Comp
+L Switch:SW_Push SW_E6
+U 1 1 5B88F5B1
+P 4850 1550
+F 0 "SW_E6" V 4850 1502 50  0000 R CNN
+F 1 "SWA6" V 4805 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 1750 50  0001 C CNN
+F 3 "" H 4850 1750 50  0001 C CNN
+	1    4850 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E6
+U 1 1 5B88F5B8
+P 5000 1750
+F 0 "D_E6" H 5000 1874 50  0000 C CNN
+F 1 "D" H 5000 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 1750 50  0001 C CNN
+F 3 "~" H 5000 1750 50  0001 C CNN
+	1    5000 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 1750 5150 1750
+$Comp
+L Switch:SW_Push SW_E7
+U 1 1 5B88F5C0
+P 5400 1550
+F 0 "SW_E7" V 5400 1502 50  0000 R CNN
+F 1 "SW_Push" V 5355 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 1750 50  0001 C CNN
+F 3 "" H 5400 1750 50  0001 C CNN
+	1    5400 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E7
+U 1 1 5B88F5C7
+P 5550 1750
+F 0 "D_E7" H 5550 1874 50  0000 C CNN
+F 1 "D" H 5550 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5550 1750 50  0001 C CNN
+F 3 "~" H 5550 1750 50  0001 C CNN
+	1    5550 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 1750 5700 1750
+$Comp
+L Switch:SW_Push SW_E8
+U 1 1 5B88F5CF
+P 5950 1550
+F 0 "SW_E8" V 5950 1502 50  0000 R CNN
+F 1 "SW_Push" V 5905 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 1750 50  0001 C CNN
+F 3 "" H 5950 1750 50  0001 C CNN
+	1    5950 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E8
+U 1 1 5B88F5D6
+P 6100 1750
+F 0 "D_E8" H 6100 1874 50  0000 C CNN
+F 1 "D" H 6100 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6100 1750 50  0001 C CNN
+F 3 "~" H 6100 1750 50  0001 C CNN
+	1    6100 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 1750 6250 1750
+$Comp
+L Switch:SW_Push SW_E9
+U 1 1 5B88F5DE
+P 6500 1550
+F 0 "SW_E9" V 6500 1502 50  0000 R CNN
+F 1 "SW_Push" V 6455 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 1750 50  0001 C CNN
+F 3 "" H 6500 1750 50  0001 C CNN
+	1    6500 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E9
+U 1 1 5B88F5E5
+P 6650 1750
+F 0 "D_E9" H 6650 1874 50  0000 C CNN
+F 1 "D" H 6650 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 1750 50  0001 C CNN
+F 3 "~" H 6650 1750 50  0001 C CNN
+	1    6650 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 1750 6800 1750
+$Comp
+L Switch:SW_Push SW_E10
+U 1 1 5B88F5ED
+P 7050 1550
+F 0 "SW_E10" V 7050 1502 50  0000 R CNN
+F 1 "SW_Push" V 7005 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 1750 50  0001 C CNN
+F 3 "" H 7050 1750 50  0001 C CNN
+	1    7050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E10
+U 1 1 5B88F5F4
+P 7200 1750
+F 0 "D_E10" H 7200 1874 50  0000 C CNN
+F 1 "D" H 7200 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7200 1750 50  0001 C CNN
+F 3 "~" H 7200 1750 50  0001 C CNN
+	1    7200 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7450 1750 7350 1750
+$Comp
+L Switch:SW_Push SW_E11
+U 1 1 5B88F5FC
+P 7600 1550
+F 0 "SW_E11" V 7600 1502 50  0000 R CNN
+F 1 "SW_Push" V 7555 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 1750 50  0001 C CNN
+F 3 "" H 7600 1750 50  0001 C CNN
+	1    7600 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E11
+U 1 1 5B88F603
+P 7750 1750
+F 0 "D_E11" H 7750 1874 50  0000 C CNN
+F 1 "D" H 7750 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7750 1750 50  0001 C CNN
+F 3 "~" H 7750 1750 50  0001 C CNN
+	1    7750 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 1750 7900 1750
+$Comp
+L Switch:SW_Push SW_E12
+U 1 1 5B88F60B
+P 8150 1550
+F 0 "SW_E12" V 8150 1502 50  0000 R CNN
+F 1 "SW_Push" V 8105 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 1750 50  0001 C CNN
+F 3 "" H 8150 1750 50  0001 C CNN
+	1    8150 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E12
+U 1 1 5B88F612
+P 8300 1750
+F 0 "D_E12" H 8300 1874 50  0000 C CNN
+F 1 "D" H 8300 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8300 1750 50  0001 C CNN
+F 3 "~" H 8300 1750 50  0001 C CNN
+	1    8300 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8550 1750 8450 1750
+$Comp
+L Switch:SW_Push SW_E13
+U 1 1 5B88F61A
+P 8700 1550
+F 0 "SW_E13" V 8700 1502 50  0000 R CNN
+F 1 "SW_Push" V 8655 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 1750 50  0001 C CNN
+F 3 "" H 8700 1750 50  0001 C CNN
+	1    8700 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E13
+U 1 1 5B88F621
+P 8850 1750
+F 0 "D_E13" H 8850 1874 50  0000 C CNN
+F 1 "D" H 8850 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8850 1750 50  0001 C CNN
+F 3 "~" H 8850 1750 50  0001 C CNN
+	1    8850 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 1750 9000 1750
+$Comp
+L Switch:SW_Push SW_E14
+U 1 1 5B88F629
+P 9250 1550
+F 0 "SW_E14" V 9250 1502 50  0000 R CNN
+F 1 "SW_Push" V 9205 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 1750 50  0001 C CNN
+F 3 "" H 9250 1750 50  0001 C CNN
+	1    9250 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E14
+U 1 1 5B88F630
+P 9400 1750
+F 0 "D_E14" H 9400 1874 50  0000 C CNN
+F 1 "D" H 9400 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9400 1750 50  0001 C CNN
+F 3 "~" H 9400 1750 50  0001 C CNN
+	1    9400 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9650 1750 9550 1750
+Connection ~ 3200 2150
+Connection ~ 4300 2150
+Connection ~ 5400 2150
+Connection ~ 6500 2150
+Connection ~ 7600 2150
+Connection ~ 3200 1350
+Connection ~ 4300 1350
+Connection ~ 5400 1350
+Connection ~ 6500 1350
+Connection ~ 7600 1350
+Connection ~ 3200 2950
+Connection ~ 4300 2950
+Connection ~ 5400 2950
+Connection ~ 6500 2950
+Connection ~ 7600 2950
+Connection ~ 8700 2950
+Connection ~ 3200 3750
+Connection ~ 4300 3750
+Connection ~ 5400 3750
+Connection ~ 6500 3750
+Connection ~ 7600 3750
+Connection ~ 8700 3750
+Connection ~ 3200 4550
+Connection ~ 4300 4550
+Connection ~ 5400 4550
+Connection ~ 6500 4550
+Connection ~ 7600 4550
+Connection ~ 8700 4550
+Text HLabel 6350 5350 3    50   Output ~ 0
+COL4
+Text HLabel 7450 5350 3    50   Output ~ 0
+COL5
+Text HLabel 8550 5350 3    50   Output ~ 0
+COL6
+Text HLabel 9650 5350 3    50   Output ~ 0
+COL7
+$Comp
+L Device:R R1
+U 1 1 5BB85905
+P 2500 5500
+F 0 "R1" H 2570 5546 50  0000 L CNN
+F 1 "1k" H 2570 5455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 5500 50  0001 C CNN
+F 3 "~" H 2500 5500 50  0001 C CNN
+	1    2500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5BCDD3C8
+P 3600 5500
+F 0 "R2" H 3670 5546 50  0000 L CNN
+F 1 "1k" H 3670 5455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3530 5500 50  0001 C CNN
+F 3 "~" H 3600 5500 50  0001 C CNN
+	1    3600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5BCDD7BB
+P 4700 5500
+F 0 "R3" H 4770 5546 50  0000 L CNN
+F 1 "1k" H 4770 5455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4630 5500 50  0001 C CNN
+F 3 "~" H 4700 5500 50  0001 C CNN
+	1    4700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BCDDC87
+P 5800 5500
+F 0 "R4" H 5870 5546 50  0000 L CNN
+F 1 "1k" H 5870 5455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5730 5500 50  0001 C CNN
+F 3 "~" H 5800 5500 50  0001 C CNN
+	1    5800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5BCDE090
+P 6900 5500
+F 0 "R5" H 6970 5546 50  0000 L CNN
+F 1 "1k" H 6970 5455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6830 5500 50  0001 C CNN
+F 3 "~" H 6900 5500 50  0001 C CNN
+	1    6900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5BCE120D
+P 8000 5500
+F 0 "R6" H 8070 5546 50  0000 L CNN
+F 1 "1k" H 8070 5455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7930 5500 50  0001 C CNN
+F 3 "~" H 8000 5500 50  0001 C CNN
+	1    8000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5BCE16C6
+P 9100 5500
+F 0 "R7" H 9170 5546 50  0000 L CNN
+F 1 "1k" H 9170 5455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9030 5500 50  0001 C CNN
+F 3 "~" H 9100 5500 50  0001 C CNN
+	1    9100 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 5300
+Wire Wire Line
+	3600 5300 3600 5350
+Connection ~ 4700 5300
+Wire Wire Line
+	4700 5300 4700 5350
+Connection ~ 5800 5300
+Wire Wire Line
+	5800 5300 5800 5350
+Connection ~ 6900 5300
+Wire Wire Line
+	6900 5300 6900 5350
+Connection ~ 8000 5300
+Wire Wire Line
+	8000 5300 8000 5350
+Connection ~ 9100 5300
+Wire Wire Line
+	9100 5300 9100 5350
+$Comp
+L power:GND #PWR0105
+U 1 1 5C12F8EF
+P 2500 5650
+F 0 "#PWR0105" H 2500 5400 50  0001 C CNN
+F 1 "GND" H 2505 5477 50  0000 C CNN
+F 2 "" H 2500 5650 50  0001 C CNN
+F 3 "" H 2500 5650 50  0001 C CNN
+	1    2500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5C13FDDF
+P 3600 5650
+F 0 "#PWR0106" H 3600 5400 50  0001 C CNN
+F 1 "GND" H 3605 5477 50  0000 C CNN
+F 2 "" H 3600 5650 50  0001 C CNN
+F 3 "" H 3600 5650 50  0001 C CNN
+	1    3600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5C1607BF
+P 4700 5650
+F 0 "#PWR0108" H 4700 5400 50  0001 C CNN
+F 1 "GND" H 4705 5477 50  0000 C CNN
+F 2 "" H 4700 5650 50  0001 C CNN
+F 3 "" H 4700 5650 50  0001 C CNN
+	1    4700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5C18119F
+P 5800 5650
+F 0 "#PWR0110" H 5800 5400 50  0001 C CNN
+F 1 "GND" H 5805 5477 50  0000 C CNN
+F 2 "" H 5800 5650 50  0001 C CNN
+F 3 "" H 5800 5650 50  0001 C CNN
+	1    5800 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5C1A325B
+P 6900 5650
+F 0 "#PWR0112" H 6900 5400 50  0001 C CNN
+F 1 "GND" H 6905 5477 50  0000 C CNN
+F 2 "" H 6900 5650 50  0001 C CNN
+F 3 "" H 6900 5650 50  0001 C CNN
+	1    6900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5C1C3C3B
+P 8000 5650
+F 0 "#PWR0114" H 8000 5400 50  0001 C CNN
+F 1 "GND" H 8005 5477 50  0000 C CNN
+F 2 "" H 8000 5650 50  0001 C CNN
+F 3 "" H 8000 5650 50  0001 C CNN
+	1    8000 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5C1E595B
+P 9100 5650
+F 0 "#PWR0116" H 9100 5400 50  0001 C CNN
+F 1 "GND" H 9105 5477 50  0000 C CNN
+F 2 "" H 9100 5650 50  0001 C CNN
+F 3 "" H 9100 5650 50  0001 C CNN
+	1    9100 5650
+	1    0    0    -1  
+$EndComp
+Text HLabel 1400 5600 1    50   Input ~ 0
+GND
+Wire Wire Line
+	1400 5600 1400 5650
+$Comp
+L power:GND #PWR0118
+U 1 1 5C218DF2
+P 1400 5650
+F 0 "#PWR0118" H 1400 5400 50  0001 C CNN
+F 1 "GND" H 1405 5477 50  0000 C CNN
+F 2 "" H 1400 5650 50  0001 C CNN
+F 3 "" H 1400 5650 50  0001 C CNN
+	1    1400 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4950 3600 5300
+Wire Wire Line
+	4700 4950 4700 5300
+Wire Wire Line
+	5800 4950 5800 5300
+Wire Wire Line
+	6900 4950 6900 5300
+Wire Wire Line
+	8000 4950 8000 5300
+Wire Wire Line
+	9100 4950 9100 5300
+Wire Wire Line
+	1850 1350 2100 1350
+Connection ~ 2100 1350
+Wire Wire Line
+	1850 2150 2100 2150
+Connection ~ 2100 2150
+Wire Wire Line
+	1850 2950 2100 2950
+Connection ~ 2100 2950
+Wire Wire Line
+	1850 3750 2100 3750
+Connection ~ 2100 3750
+Wire Wire Line
+	1850 4550 2100 4550
+Connection ~ 2100 4550
+Connection ~ 8700 1350
+Connection ~ 8700 2150
+$Comp
+L Switch:SW_Push SW_A15
+U 1 1 5B90DD83
+P 9800 4750
+F 0 "SW_A15" V 9800 4702 50  0000 R CNN
+F 1 "SW_Push" V 9755 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 4950 50  0001 C CNN
+F 3 "" H 9800 4950 50  0001 C CNN
+	1    9800 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A15
+U 1 1 5B90DD8A
+P 9950 4950
+F 0 "D_A15" H 9950 5074 50  0000 C CNN
+F 1 "D" H 9950 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9950 4950 50  0001 C CNN
+F 3 "~" H 9950 4950 50  0001 C CNN
+	1    9950 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 4950 10100 4950
+$Comp
+L Switch:SW_Push SW_B15
+U 1 1 5B90DD92
+P 9800 3950
+F 0 "SW_B15" V 9800 3902 50  0000 R CNN
+F 1 "SW_Push" V 9755 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 4150 50  0001 C CNN
+F 3 "" H 9800 4150 50  0001 C CNN
+	1    9800 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B15
+U 1 1 5B90DD99
+P 9950 4150
+F 0 "D_B15" H 9950 4274 50  0000 C CNN
+F 1 "D" H 9950 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9950 4150 50  0001 C CNN
+F 3 "~" H 9950 4150 50  0001 C CNN
+	1    9950 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 4150 10100 4150
+$Comp
+L Switch:SW_Push SW_C15
+U 1 1 5B90DDA1
+P 9800 3150
+F 0 "SW_C15" V 9800 3102 50  0000 R CNN
+F 1 "SW_Push" V 9755 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 3350 50  0001 C CNN
+F 3 "" H 9800 3350 50  0001 C CNN
+	1    9800 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C15
+U 1 1 5B90DDA8
+P 9950 3350
+F 0 "D_C15" H 9950 3474 50  0000 C CNN
+F 1 "D" H 9950 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9950 3350 50  0001 C CNN
+F 3 "~" H 9950 3350 50  0001 C CNN
+	1    9950 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 3350 10100 3350
+$Comp
+L Switch:SW_Push SW_D15
+U 1 1 5B90DDB0
+P 9800 2350
+F 0 "SW_D15" V 9800 2302 50  0000 R CNN
+F 1 "SW_Push" V 9755 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 2550 50  0001 C CNN
+F 3 "" H 9800 2550 50  0001 C CNN
+	1    9800 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D15
+U 1 1 5B90DDB7
+P 9950 2550
+F 0 "D_D15" H 9950 2674 50  0000 C CNN
+F 1 "D" H 9950 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9950 2550 50  0001 C CNN
+F 3 "~" H 9950 2550 50  0001 C CNN
+	1    9950 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 2550 10100 2550
+$Comp
+L Switch:SW_Push SW_E15
+U 1 1 5B90DDBF
+P 9800 1550
+F 0 "SW_E15" V 9800 1502 50  0000 R CNN
+F 1 "SW_Push" V 9755 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 1750 50  0001 C CNN
+F 3 "" H 9800 1750 50  0001 C CNN
+	1    9800 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E15
+U 1 1 5B90DDC6
+P 9950 1750
+F 0 "D_E15" H 9950 1874 50  0000 C CNN
+F 1 "D" H 9950 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9950 1750 50  0001 C CNN
+F 3 "~" H 9950 1750 50  0001 C CNN
+	1    9950 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 1750 10100 1750
+$Comp
+L Switch:SW_Push SW_A16
+U 1 1 5B920594
+P 10350 4750
+F 0 "SW_A16" V 10350 4702 50  0000 R CNN
+F 1 "SW_Push" V 10305 4702 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 4950 50  0001 C CNN
+F 3 "" H 10350 4950 50  0001 C CNN
+	1    10350 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_A16
+U 1 1 5B92059B
+P 10500 4950
+F 0 "D_A16" H 10500 5074 50  0000 C CNN
+F 1 "D" H 10500 5165 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10500 4950 50  0001 C CNN
+F 3 "~" H 10500 4950 50  0001 C CNN
+	1    10500 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10750 4950 10650 4950
+$Comp
+L Switch:SW_Push SW_B16
+U 1 1 5B9205A3
+P 10350 3950
+F 0 "SW_B16" V 10350 3902 50  0000 R CNN
+F 1 "SW_Push" V 10305 3902 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 4150 50  0001 C CNN
+F 3 "" H 10350 4150 50  0001 C CNN
+	1    10350 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_B16
+U 1 1 5B9205AA
+P 10500 4150
+F 0 "D_B16" H 10500 4274 50  0000 C CNN
+F 1 "D" H 10500 4365 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10500 4150 50  0001 C CNN
+F 3 "~" H 10500 4150 50  0001 C CNN
+	1    10500 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10750 4150 10650 4150
+$Comp
+L Switch:SW_Push SW_C16
+U 1 1 5B9205B2
+P 10350 3150
+F 0 "SW_C16" V 10350 3102 50  0000 R CNN
+F 1 "SW_Push" V 10305 3102 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 3350 50  0001 C CNN
+F 3 "" H 10350 3350 50  0001 C CNN
+	1    10350 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_C16
+U 1 1 5B9205B9
+P 10500 3350
+F 0 "D_C16" H 10500 3474 50  0000 C CNN
+F 1 "D" H 10500 3565 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10500 3350 50  0001 C CNN
+F 3 "~" H 10500 3350 50  0001 C CNN
+	1    10500 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10750 3350 10650 3350
+$Comp
+L Switch:SW_Push SW_D16
+U 1 1 5B9205C1
+P 10350 2350
+F 0 "SW_D16" V 10350 2302 50  0000 R CNN
+F 1 "SW_Push" V 10305 2302 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 2550 50  0001 C CNN
+F 3 "" H 10350 2550 50  0001 C CNN
+	1    10350 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_D16
+U 1 1 5B9205C8
+P 10500 2550
+F 0 "D_D16" H 10500 2674 50  0000 C CNN
+F 1 "D" H 10500 2765 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10500 2550 50  0001 C CNN
+F 3 "~" H 10500 2550 50  0001 C CNN
+	1    10500 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10750 2550 10650 2550
+$Comp
+L Switch:SW_Push SW_E16
+U 1 1 5B9205D0
+P 10350 1550
+F 0 "SW_E16" V 10350 1502 50  0000 R CNN
+F 1 "SW_Push" V 10305 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 1750 50  0001 C CNN
+F 3 "" H 10350 1750 50  0001 C CNN
+	1    10350 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D_E16
+U 1 1 5B9205D7
+P 10500 1750
+F 0 "D_E16" H 10500 1874 50  0000 C CNN
+F 1 "D" H 10500 1965 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10500 1750 50  0001 C CNN
+F 3 "~" H 10500 1750 50  0001 C CNN
+	1    10500 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10750 1750 10650 1750
+Connection ~ 10750 4950
+Wire Wire Line
+	10750 4150 10750 4950
+Text HLabel 10750 5350 3    50   Output ~ 0
+COL8
+$Comp
+L Device:R R8
+U 1 1 5BA0B386
+P 10200 5500
+F 0 "R8" H 10270 5546 50  0000 L CNN
+F 1 "1k" H 10270 5455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10130 5500 50  0001 C CNN
+F 3 "~" H 10200 5500 50  0001 C CNN
+	1    10200 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10200 5300
+Wire Wire Line
+	10200 5300 10200 5350
+$Comp
+L power:GND #PWR0104
+U 1 1 5BA0B390
+P 10200 5650
+F 0 "#PWR0104" H 10200 5400 50  0001 C CNN
+F 1 "GND" H 10205 5477 50  0000 C CNN
+F 2 "" H 10200 5650 50  0001 C CNN
+F 3 "" H 10200 5650 50  0001 C CNN
+	1    10200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4950 10200 5300
+Wire Wire Line
+	2500 4950 2500 5300
+Wire Wire Line
+	3050 4950 3050 5300
+Wire Wire Line
+	3050 5300 2500 5300
+Connection ~ 3050 5300
+Wire Wire Line
+	3050 5300 3050 5350
+Connection ~ 2500 5300
+Wire Wire Line
+	2500 5300 2500 5350
+Wire Wire Line
+	4150 5300 4150 4950
+Wire Wire Line
+	3600 5300 4150 5300
+Wire Wire Line
+	5250 5300 5250 4950
+Wire Wire Line
+	4700 5300 5250 5300
+Wire Wire Line
+	6350 5300 6350 4950
+Wire Wire Line
+	5800 5300 6350 5300
+Wire Wire Line
+	7450 5300 7450 4950
+Wire Wire Line
+	6900 5300 7450 5300
+Wire Wire Line
+	8550 5300 8550 4950
+Wire Wire Line
+	8000 5300 8550 5300
+Wire Wire Line
+	4150 5300 4150 5350
+Connection ~ 4150 5300
+Wire Wire Line
+	5250 5350 5250 5300
+Connection ~ 5250 5300
+Wire Wire Line
+	6350 5350 6350 5300
+Connection ~ 6350 5300
+Wire Wire Line
+	7450 5350 7450 5300
+Connection ~ 7450 5300
+Wire Wire Line
+	8550 5350 8550 5300
+Connection ~ 8550 5300
+Wire Wire Line
+	9650 4950 9650 5300
+Wire Wire Line
+	9100 5300 9650 5300
+Connection ~ 9650 5300
+Wire Wire Line
+	9650 5300 9650 5350
+Wire Wire Line
+	10750 4950 10750 5300
+Wire Wire Line
+	10200 5300 10750 5300
+Connection ~ 10750 5300
+Wire Wire Line
+	10750 5300 10750 5350
+Wire Wire Line
+	1850 4450 2650 4450
+Text HLabel 1850 4450 0    50   Input ~ 0
+ROW2
+Wire Wire Line
+	1850 3650 2650 3650
+Wire Wire Line
+	1850 2850 2650 2850
+Wire Wire Line
+	1850 2050 2650 2050
+Wire Wire Line
+	1850 1250 2650 1250
+Wire Wire Line
+	2500 1750 2500 2550
+Connection ~ 2500 4950
+Connection ~ 2500 2550
+Wire Wire Line
+	2500 2550 2500 3350
+Connection ~ 2500 3350
+Wire Wire Line
+	2500 3350 2500 4150
+Connection ~ 2500 4150
+Wire Wire Line
+	2500 4150 2500 4950
+Wire Wire Line
+	3050 4950 3050 4150
+Connection ~ 3050 4950
+Connection ~ 3050 2550
+Wire Wire Line
+	3050 2550 3050 1750
+Connection ~ 3050 3350
+Wire Wire Line
+	3050 3350 3050 2550
+Connection ~ 3050 4150
+Wire Wire Line
+	3050 4150 3050 3350
+Wire Wire Line
+	3600 1750 3600 2550
+Connection ~ 3600 4950
+Connection ~ 3600 2550
+Wire Wire Line
+	3600 2550 3600 3350
+Connection ~ 3600 3350
+Wire Wire Line
+	3600 3350 3600 4150
+Connection ~ 3600 4150
+Wire Wire Line
+	3600 4150 3600 4950
+Wire Wire Line
+	4700 4950 4700 4150
+Connection ~ 4700 4950
+Connection ~ 4700 2550
+Wire Wire Line
+	4700 2550 4700 1750
+Connection ~ 4700 3350
+Wire Wire Line
+	4700 3350 4700 2550
+Connection ~ 4700 4150
+Wire Wire Line
+	4700 4150 4700 3350
+Wire Wire Line
+	4150 1750 4150 2550
+Connection ~ 4150 4950
+Connection ~ 4150 2550
+Wire Wire Line
+	4150 2550 4150 3350
+Connection ~ 4150 3350
+Wire Wire Line
+	4150 3350 4150 4150
+Connection ~ 4150 4150
+Wire Wire Line
+	4150 4150 4150 4950
+Wire Wire Line
+	5800 4950 5800 4150
+Connection ~ 5800 4950
+Connection ~ 5800 2550
+Wire Wire Line
+	5800 2550 5800 1750
+Connection ~ 5800 3350
+Wire Wire Line
+	5800 3350 5800 2550
+Connection ~ 5800 4150
+Wire Wire Line
+	5800 4150 5800 3350
+Wire Wire Line
+	5250 1750 5250 2550
+Connection ~ 5250 4950
+Connection ~ 5250 2550
+Wire Wire Line
+	5250 2550 5250 3350
+Connection ~ 5250 3350
+Wire Wire Line
+	5250 3350 5250 4150
+Connection ~ 5250 4150
+Wire Wire Line
+	5250 4150 5250 4950
+Wire Wire Line
+	6900 4950 6900 4150
+Connection ~ 6900 4950
+Connection ~ 6900 2550
+Wire Wire Line
+	6900 2550 6900 1750
+Connection ~ 6900 3350
+Wire Wire Line
+	6900 3350 6900 2550
+Connection ~ 6900 4150
+Wire Wire Line
+	6900 4150 6900 3350
+Wire Wire Line
+	6350 1750 6350 2550
+Connection ~ 6350 4950
+Connection ~ 6350 2550
+Wire Wire Line
+	6350 2550 6350 3350
+Connection ~ 6350 3350
+Wire Wire Line
+	6350 3350 6350 4150
+Connection ~ 6350 4150
+Wire Wire Line
+	6350 4150 6350 4950
+Wire Wire Line
+	8000 4950 8000 4150
+Connection ~ 8000 4950
+Connection ~ 8000 2550
+Wire Wire Line
+	8000 2550 8000 1750
+Connection ~ 8000 3350
+Wire Wire Line
+	8000 3350 8000 2550
+Connection ~ 8000 4150
+Wire Wire Line
+	8000 4150 8000 3350
+Wire Wire Line
+	7450 1750 7450 2550
+Connection ~ 7450 4950
+Connection ~ 7450 2550
+Wire Wire Line
+	7450 2550 7450 3350
+Connection ~ 7450 3350
+Wire Wire Line
+	7450 3350 7450 4150
+Connection ~ 7450 4150
+Wire Wire Line
+	7450 4150 7450 4950
+Wire Wire Line
+	8550 1750 8550 2550
+Connection ~ 8550 4950
+Connection ~ 8550 2550
+Wire Wire Line
+	8550 2550 8550 3350
+Connection ~ 8550 3350
+Wire Wire Line
+	8550 3350 8550 4150
+Connection ~ 8550 4150
+Wire Wire Line
+	8550 4150 8550 4950
+Wire Wire Line
+	9100 1750 9100 2550
+Connection ~ 9100 4950
+Connection ~ 9100 2550
+Wire Wire Line
+	9100 2550 9100 3350
+Connection ~ 9100 3350
+Wire Wire Line
+	9100 3350 9100 4150
+Connection ~ 9100 4150
+Wire Wire Line
+	9100 4150 9100 4950
+Wire Wire Line
+	9650 4950 9650 4150
+Connection ~ 9650 4950
+Connection ~ 9650 2550
+Wire Wire Line
+	9650 2550 9650 1750
+Connection ~ 9650 3350
+Wire Wire Line
+	9650 3350 9650 2550
+Connection ~ 9650 4150
+Wire Wire Line
+	9650 4150 9650 3350
+Wire Wire Line
+	10750 1750 10750 2550
+Connection ~ 10750 2550
+Wire Wire Line
+	10750 2550 10750 3350
+Connection ~ 10750 3350
+Wire Wire Line
+	10750 3350 10750 4150
+Connection ~ 10750 4150
+$Comp
+L Switch:SW_Push SW_E2
+U 1 1 5B88F575
+P 2650 1550
+F 0 "SW_E2" V 2650 1502 50  0000 R CNN
+F 1 "SW_Push" V 2605 1502 50  0001 R CNN
+F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 1750 50  0001 C CNN
+F 3 "" H 2650 1750 50  0001 C CNN
+	1    2650 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 4550 2650 4450
+Connection ~ 2650 4450
+Wire Wire Line
+	2650 4450 3750 4450
+Wire Wire Line
+	3750 4550 3750 4450
+Connection ~ 3750 4450
+Wire Wire Line
+	3750 4450 4850 4450
+Wire Wire Line
+	4850 4550 4850 4450
+Connection ~ 4850 4450
+Wire Wire Line
+	4850 4450 5950 4450
+Wire Wire Line
+	5950 4550 5950 4450
+Connection ~ 5950 4450
+Wire Wire Line
+	5950 4450 7050 4450
+Wire Wire Line
+	7050 4550 7050 4450
+Connection ~ 7050 4450
+Wire Wire Line
+	7050 4450 8150 4450
+Wire Wire Line
+	8150 4550 8150 4450
+Connection ~ 8150 4450
+Wire Wire Line
+	8150 4450 9250 4450
+Wire Wire Line
+	9250 4550 9250 4450
+Connection ~ 9250 4450
+Wire Wire Line
+	9250 4450 10350 4450
+Wire Wire Line
+	10350 4550 10350 4450
+Wire Wire Line
+	10350 3750 10350 3650
+Wire Wire Line
+	9250 3650 9250 3750
+Connection ~ 9250 3650
+Wire Wire Line
+	9250 3650 10350 3650
+Wire Wire Line
+	8150 3750 8150 3650
+Connection ~ 8150 3650
+Wire Wire Line
+	8150 3650 9250 3650
+Wire Wire Line
+	7050 3750 7050 3650
+Connection ~ 7050 3650
+Wire Wire Line
+	7050 3650 8150 3650
+Wire Wire Line
+	5950 3750 5950 3650
+Connection ~ 5950 3650
+Wire Wire Line
+	5950 3650 7050 3650
+Wire Wire Line
+	4850 3750 4850 3650
+Connection ~ 4850 3650
+Wire Wire Line
+	4850 3650 5950 3650
+Wire Wire Line
+	3750 3750 3750 3650
+Connection ~ 3750 3650
+Wire Wire Line
+	3750 3650 4850 3650
+Wire Wire Line
+	2650 3750 2650 3650
+Connection ~ 2650 3650
+Wire Wire Line
+	2650 3650 3750 3650
+Wire Wire Line
+	2650 2950 2650 2850
+Connection ~ 2650 2850
+Wire Wire Line
+	2650 2850 3750 2850
+Wire Wire Line
+	3750 2950 3750 2850
+Connection ~ 3750 2850
+Wire Wire Line
+	3750 2850 4850 2850
+Wire Wire Line
+	4850 2950 4850 2850
+Connection ~ 4850 2850
+Wire Wire Line
+	4850 2850 5950 2850
+Wire Wire Line
+	5950 2950 5950 2850
+Connection ~ 5950 2850
+Wire Wire Line
+	5950 2850 7050 2850
+Wire Wire Line
+	7050 2950 7050 2850
+Connection ~ 7050 2850
+Wire Wire Line
+	7050 2850 8150 2850
+Wire Wire Line
+	8150 2950 8150 2850
+Connection ~ 8150 2850
+Wire Wire Line
+	8150 2850 9250 2850
+Wire Wire Line
+	9250 2950 9250 2850
+Connection ~ 9250 2850
+Wire Wire Line
+	9250 2850 10350 2850
+Wire Wire Line
+	10350 2950 10350 2850
+Wire Wire Line
+	10350 2150 10350 2050
+Wire Wire Line
+	9250 2150 9250 2050
+Connection ~ 9250 2050
+Wire Wire Line
+	9250 2050 10350 2050
+Wire Wire Line
+	7050 2150 7050 2050
+Connection ~ 7050 2050
+Wire Wire Line
+	5950 2150 5950 2050
+Connection ~ 5950 2050
+Wire Wire Line
+	5950 2050 7050 2050
+Wire Wire Line
+	4850 2150 4850 2050
+Connection ~ 4850 2050
+Wire Wire Line
+	4850 2050 5950 2050
+Wire Wire Line
+	3750 2150 3750 2050
+Connection ~ 3750 2050
+Wire Wire Line
+	3750 2050 4850 2050
+Wire Wire Line
+	2650 2150 2650 2050
+Connection ~ 2650 2050
+Wire Wire Line
+	2650 2050 3750 2050
+Wire Wire Line
+	2650 1350 2650 1250
+Connection ~ 2650 1250
+Wire Wire Line
+	2650 1250 3750 1250
+Wire Wire Line
+	3750 1350 3750 1250
+Connection ~ 3750 1250
+Wire Wire Line
+	3750 1250 4850 1250
+Wire Wire Line
+	4850 1350 4850 1250
+Connection ~ 4850 1250
+Wire Wire Line
+	4850 1250 5950 1250
+Wire Wire Line
+	5950 1350 5950 1250
+Connection ~ 5950 1250
+Wire Wire Line
+	5950 1250 7050 1250
+Wire Wire Line
+	7050 1350 7050 1250
+Connection ~ 7050 1250
+Wire Wire Line
+	7050 1250 8150 1250
+Wire Wire Line
+	8150 1350 8150 1250
+Connection ~ 8150 1250
+Wire Wire Line
+	8150 1250 9250 1250
+Wire Wire Line
+	9250 1350 9250 1250
+Connection ~ 9250 1250
+Wire Wire Line
+	9250 1250 10350 1250
+Wire Wire Line
+	10350 1350 10350 1250
+Wire Wire Line
+	2100 1350 3200 1350
+Wire Wire Line
+	3200 1350 4300 1350
+Wire Wire Line
+	4300 1350 5400 1350
+Wire Wire Line
+	5400 1350 6500 1350
+Wire Wire Line
+	6500 1350 7600 1350
+Wire Wire Line
+	7600 1350 8700 1350
+Wire Wire Line
+	8700 1350 9800 1350
+Wire Wire Line
+	2100 2150 3200 2150
+Wire Wire Line
+	3200 2150 4300 2150
+Wire Wire Line
+	4300 2150 5400 2150
+Wire Wire Line
+	5400 2150 6500 2150
+Wire Wire Line
+	6500 2150 7600 2150
+Wire Wire Line
+	7050 2050 8150 2050
+Wire Wire Line
+	8150 2050 9250 2050
+Connection ~ 8150 2050
+Wire Wire Line
+	8150 2150 8150 2050
+Wire Wire Line
+	7600 2150 8700 2150
+Wire Wire Line
+	8700 2150 9800 2150
+Wire Wire Line
+	2100 2950 3200 2950
+Wire Wire Line
+	3200 2950 4300 2950
+Wire Wire Line
+	4300 2950 5400 2950
+Wire Wire Line
+	5400 2950 6500 2950
+Wire Wire Line
+	6500 2950 7600 2950
+Wire Wire Line
+	7600 2950 8700 2950
+Wire Wire Line
+	8700 2950 9800 2950
+Wire Wire Line
+	2100 3750 3200 3750
+Wire Wire Line
+	3200 3750 4300 3750
+Wire Wire Line
+	4300 3750 5400 3750
+Wire Wire Line
+	5400 3750 6500 3750
+Wire Wire Line
+	6500 3750 7600 3750
+Wire Wire Line
+	7600 3750 8700 3750
+Wire Wire Line
+	8700 3750 9800 3750
+Wire Wire Line
+	8700 4550 9800 4550
+Wire Wire Line
+	7600 4550 8700 4550
+Wire Wire Line
+	6500 4550 7600 4550
+Wire Wire Line
+	5400 4550 6500 4550
+Wire Wire Line
+	4300 4550 5400 4550
+Wire Wire Line
+	3200 4550 4300 4550
+Wire Wire Line
+	2100 4550 3200 4550
+Text HLabel 1850 3650 0    50   Input ~ 0
+ROW4
+Text HLabel 1850 2850 0    50   Input ~ 0
+ROW6
+Text HLabel 1850 2050 0    50   Input ~ 0
+ROW8
+Text HLabel 1850 1250 0    50   Input ~ 0
+ROW10
+Wire Wire Line
+	10200 1750 10200 2550
+Connection ~ 10200 4950
+Connection ~ 10200 2550
+Wire Wire Line
+	10200 2550 10200 3350
+Connection ~ 10200 3350
+Wire Wire Line
+	10200 3350 10200 4150
+Connection ~ 10200 4150
+Wire Wire Line
+	10200 4150 10200 4950
+$EndSCHEMATC
