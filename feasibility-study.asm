@@ -82,9 +82,9 @@ holdoff:	incf INDF0
 
 checklayer:	; ...
 
-	bra next_col
+	bra adv_col
 
-next_col:	lsrf COLS
+adv_col:	lsrf COLS
 	incf SCANCODE
 	decf COLS_REMAIN
 	ifc STATUS, Z ; if there are more cols to go
