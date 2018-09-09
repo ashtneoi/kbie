@@ -36,7 +36,7 @@ U 1 1 5B88246D
 P 2100 4750
 F 0 "SW_A1" V 2100 4702 50  0000 R CNN
 F 1 "SW_Push" V 2055 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 4950 50  0001 C CNN
 F 3 "" H 2100 4950 50  0001 C CNN
 	1    2100 4750
 	0    -1   -1   0   
@@ -60,7 +60,7 @@ U 1 1 5B882B24
 P 2650 4750
 F 0 "SW_A2" V 2650 4702 50  0000 R CNN
 F 1 "SW_Push" V 2605 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 4950 50  0001 C CNN
 F 3 "" H 2650 4950 50  0001 C CNN
 	1    2650 4750
 	0    -1   -1   0   
@@ -84,7 +84,7 @@ U 1 1 5B882B62
 P 3200 4750
 F 0 "SW_A3" V 3200 4702 50  0000 R CNN
 F 1 "SW_Push" V 3155 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 4950 50  0001 C CNN
 F 3 "" H 3200 4950 50  0001 C CNN
 	1    3200 4750
 	0    -1   -1   0   
@@ -108,7 +108,7 @@ U 1 1 5B882BD6
 P 3750 4750
 F 0 "SW_A4" V 3750 4702 50  0000 R CNN
 F 1 "SW_Push" V 3705 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 4950 50  0001 C CNN
 F 3 "" H 3750 4950 50  0001 C CNN
 	1    3750 4750
 	0    -1   -1   0   
@@ -132,7 +132,7 @@ U 1 1 5B882D8D
 P 4300 4750
 F 0 "SW_A5" V 4300 4702 50  0000 R CNN
 F 1 "SW_Push" V 4255 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 4950 50  0001 C CNN
 F 3 "" H 4300 4950 50  0001 C CNN
 	1    4300 4750
 	0    -1   -1   0   
@@ -156,7 +156,7 @@ U 1 1 5B882E5A
 P 4850 4750
 F 0 "SW_A6" V 4850 4702 50  0000 R CNN
 F 1 "SWA6" V 4805 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 4950 50  0001 C CNN
 F 3 "" H 4850 4950 50  0001 C CNN
 	1    4850 4750
 	0    -1   -1   0   
@@ -180,7 +180,7 @@ U 1 1 5B882F52
 P 5400 4750
 F 0 "SW_A7" V 5400 4702 50  0000 R CNN
 F 1 "SW_Push" V 5355 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 4950 50  0001 C CNN
 F 3 "" H 5400 4950 50  0001 C CNN
 	1    5400 4750
 	0    -1   -1   0   
@@ -204,7 +204,7 @@ U 1 1 5B883024
 P 5950 4750
 F 0 "SW_A8" V 5950 4702 50  0000 R CNN
 F 1 "SW_Push" V 5905 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 4950 50  0001 C CNN
 F 3 "" H 5950 4950 50  0001 C CNN
 	1    5950 4750
 	0    -1   -1   0   
@@ -228,7 +228,7 @@ U 1 1 5B88313B
 P 6500 4750
 F 0 "SW_A9" V 6500 4702 50  0000 R CNN
 F 1 "SW_Push" V 6455 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 4950 50  0001 C CNN
 F 3 "" H 6500 4950 50  0001 C CNN
 	1    6500 4750
 	0    -1   -1   0   
@@ -252,7 +252,7 @@ U 1 1 5B883202
 P 7050 4750
 F 0 "SW_A10" V 7050 4702 50  0000 R CNN
 F 1 "SW_Push" V 7005 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 4950 50  0001 C CNN
 F 3 "" H 7050 4950 50  0001 C CNN
 	1    7050 4750
 	0    -1   -1   0   
@@ -276,7 +276,7 @@ U 1 1 5B883338
 P 7600 4750
 F 0 "SW_A11" V 7600 4702 50  0000 R CNN
 F 1 "SW_Push" V 7555 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 4950 50  0001 C CNN
 F 3 "" H 7600 4950 50  0001 C CNN
 	1    7600 4750
 	0    -1   -1   0   
@@ -300,7 +300,7 @@ U 1 1 5B88343C
 P 8150 4750
 F 0 "SW_A12" V 8150 4702 50  0000 R CNN
 F 1 "SW_Push" V 8105 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 4950 50  0001 C CNN
 F 3 "" H 8150 4950 50  0001 C CNN
 	1    8150 4750
 	0    -1   -1   0   
@@ -324,7 +324,7 @@ U 1 1 5B8837F1
 P 8700 4750
 F 0 "SW_A13" V 8700 4702 50  0000 R CNN
 F 1 "SW_Push" V 8655 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 4950 50  0001 C CNN
 F 3 "" H 8700 4950 50  0001 C CNN
 	1    8700 4750
 	0    -1   -1   0   
@@ -348,7 +348,7 @@ U 1 1 5B88394E
 P 9250 4750
 F 0 "SW_A14" V 9250 4702 50  0000 R CNN
 F 1 "SW_Push" V 9205 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 4950 50  0001 C CNN
 F 3 "" H 9250 4950 50  0001 C CNN
 	1    9250 4750
 	0    -1   -1   0   
@@ -372,7 +372,7 @@ U 1 1 5B88A739
 P 2100 3950
 F 0 "SW_B1" V 2100 3902 50  0000 R CNN
 F 1 "SW_Push" V 2055 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 4150 50  0001 C CNN
 F 3 "" H 2100 4150 50  0001 C CNN
 	1    2100 3950
 	0    -1   -1   0   
@@ -396,7 +396,7 @@ U 1 1 5B88A748
 P 2650 3950
 F 0 "SW_B2" V 2650 3902 50  0000 R CNN
 F 1 "SW_Push" V 2605 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 4150 50  0001 C CNN
 F 3 "" H 2650 4150 50  0001 C CNN
 	1    2650 3950
 	0    -1   -1   0   
@@ -420,7 +420,7 @@ U 1 1 5B88A757
 P 3200 3950
 F 0 "SW_B3" V 3200 3902 50  0000 R CNN
 F 1 "SW_Push" V 3155 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 4150 50  0001 C CNN
 F 3 "" H 3200 4150 50  0001 C CNN
 	1    3200 3950
 	0    -1   -1   0   
@@ -444,7 +444,7 @@ U 1 1 5B88A766
 P 3750 3950
 F 0 "SW_B4" V 3750 3902 50  0000 R CNN
 F 1 "SW_Push" V 3705 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 4150 50  0001 C CNN
 F 3 "" H 3750 4150 50  0001 C CNN
 	1    3750 3950
 	0    -1   -1   0   
@@ -468,7 +468,7 @@ U 1 1 5B88A775
 P 4300 3950
 F 0 "SW_B5" V 4300 3902 50  0000 R CNN
 F 1 "SW_Push" V 4255 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 4150 50  0001 C CNN
 F 3 "" H 4300 4150 50  0001 C CNN
 	1    4300 3950
 	0    -1   -1   0   
@@ -492,7 +492,7 @@ U 1 1 5B88A784
 P 4850 3950
 F 0 "SW_B6" V 4850 3902 50  0000 R CNN
 F 1 "SWA6" V 4805 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 4150 50  0001 C CNN
 F 3 "" H 4850 4150 50  0001 C CNN
 	1    4850 3950
 	0    -1   -1   0   
@@ -516,7 +516,7 @@ U 1 1 5B88A793
 P 5400 3950
 F 0 "SW_B7" V 5400 3902 50  0000 R CNN
 F 1 "SW_Push" V 5355 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 4150 50  0001 C CNN
 F 3 "" H 5400 4150 50  0001 C CNN
 	1    5400 3950
 	0    -1   -1   0   
@@ -540,7 +540,7 @@ U 1 1 5B88A7A2
 P 5950 3950
 F 0 "SW_B8" V 5950 3902 50  0000 R CNN
 F 1 "SW_Push" V 5905 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 4150 50  0001 C CNN
 F 3 "" H 5950 4150 50  0001 C CNN
 	1    5950 3950
 	0    -1   -1   0   
@@ -564,7 +564,7 @@ U 1 1 5B88A7B1
 P 6500 3950
 F 0 "SW_B9" V 6500 3902 50  0000 R CNN
 F 1 "SW_Push" V 6455 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 4150 50  0001 C CNN
 F 3 "" H 6500 4150 50  0001 C CNN
 	1    6500 3950
 	0    -1   -1   0   
@@ -588,7 +588,7 @@ U 1 1 5B88A7C0
 P 7050 3950
 F 0 "SW_B10" V 7050 3902 50  0000 R CNN
 F 1 "SW_Push" V 7005 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 4150 50  0001 C CNN
 F 3 "" H 7050 4150 50  0001 C CNN
 	1    7050 3950
 	0    -1   -1   0   
@@ -612,7 +612,7 @@ U 1 1 5B88A7CF
 P 7600 3950
 F 0 "SW_B11" V 7600 3902 50  0000 R CNN
 F 1 "SW_Push" V 7555 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 4150 50  0001 C CNN
 F 3 "" H 7600 4150 50  0001 C CNN
 	1    7600 3950
 	0    -1   -1   0   
@@ -636,7 +636,7 @@ U 1 1 5B88A7DE
 P 8150 3950
 F 0 "SW_B12" V 8150 3902 50  0000 R CNN
 F 1 "SW_Push" V 8105 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 4150 50  0001 C CNN
 F 3 "" H 8150 4150 50  0001 C CNN
 	1    8150 3950
 	0    -1   -1   0   
@@ -660,7 +660,7 @@ U 1 1 5B88A7ED
 P 8700 3950
 F 0 "SW_B13" V 8700 3902 50  0000 R CNN
 F 1 "SW_Push" V 8655 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 4150 50  0001 C CNN
 F 3 "" H 8700 4150 50  0001 C CNN
 	1    8700 3950
 	0    -1   -1   0   
@@ -684,7 +684,7 @@ U 1 1 5B88A7FC
 P 9250 3950
 F 0 "SW_B14" V 9250 3902 50  0000 R CNN
 F 1 "SW_Push" V 9205 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 4150 50  0001 C CNN
 F 3 "" H 9250 4150 50  0001 C CNN
 	1    9250 3950
 	0    -1   -1   0   
@@ -708,7 +708,7 @@ U 1 1 5B88B24C
 P 2100 3150
 F 0 "SW_C1" V 2100 3102 50  0000 R CNN
 F 1 "SW_Push" V 2055 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 3350 50  0001 C CNN
 F 3 "" H 2100 3350 50  0001 C CNN
 	1    2100 3150
 	0    -1   -1   0   
@@ -732,7 +732,7 @@ U 1 1 5B88B25B
 P 2650 3150
 F 0 "SW_C2" V 2650 3102 50  0000 R CNN
 F 1 "SW_Push" V 2605 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 3350 50  0001 C CNN
 F 3 "" H 2650 3350 50  0001 C CNN
 	1    2650 3150
 	0    -1   -1   0   
@@ -756,7 +756,7 @@ U 1 1 5B88B26A
 P 3200 3150
 F 0 "SW_C3" V 3200 3102 50  0000 R CNN
 F 1 "SW_Push" V 3155 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 3350 50  0001 C CNN
 F 3 "" H 3200 3350 50  0001 C CNN
 	1    3200 3150
 	0    -1   -1   0   
@@ -780,7 +780,7 @@ U 1 1 5B88B279
 P 3750 3150
 F 0 "SW_C4" V 3750 3102 50  0000 R CNN
 F 1 "SW_Push" V 3705 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 3350 50  0001 C CNN
 F 3 "" H 3750 3350 50  0001 C CNN
 	1    3750 3150
 	0    -1   -1   0   
@@ -804,7 +804,7 @@ U 1 1 5B88B288
 P 4300 3150
 F 0 "SW_C5" V 4300 3102 50  0000 R CNN
 F 1 "SW_Push" V 4255 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 3350 50  0001 C CNN
 F 3 "" H 4300 3350 50  0001 C CNN
 	1    4300 3150
 	0    -1   -1   0   
@@ -828,7 +828,7 @@ U 1 1 5B88B297
 P 4850 3150
 F 0 "SW_C6" V 4850 3102 50  0000 R CNN
 F 1 "SWA6" V 4805 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 3350 50  0001 C CNN
 F 3 "" H 4850 3350 50  0001 C CNN
 	1    4850 3150
 	0    -1   -1   0   
@@ -852,7 +852,7 @@ U 1 1 5B88B2A6
 P 5400 3150
 F 0 "SW_C7" V 5400 3102 50  0000 R CNN
 F 1 "SW_Push" V 5355 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 3350 50  0001 C CNN
 F 3 "" H 5400 3350 50  0001 C CNN
 	1    5400 3150
 	0    -1   -1   0   
@@ -876,7 +876,7 @@ U 1 1 5B88B2B5
 P 5950 3150
 F 0 "SW_C8" V 5950 3102 50  0000 R CNN
 F 1 "SW_Push" V 5905 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 3350 50  0001 C CNN
 F 3 "" H 5950 3350 50  0001 C CNN
 	1    5950 3150
 	0    -1   -1   0   
@@ -900,7 +900,7 @@ U 1 1 5B88B2C4
 P 6500 3150
 F 0 "SW_C9" V 6500 3102 50  0000 R CNN
 F 1 "SW_Push" V 6455 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 3350 50  0001 C CNN
 F 3 "" H 6500 3350 50  0001 C CNN
 	1    6500 3150
 	0    -1   -1   0   
@@ -924,7 +924,7 @@ U 1 1 5B88B2D3
 P 7050 3150
 F 0 "SW_C10" V 7050 3102 50  0000 R CNN
 F 1 "SW_Push" V 7005 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 3350 50  0001 C CNN
 F 3 "" H 7050 3350 50  0001 C CNN
 	1    7050 3150
 	0    -1   -1   0   
@@ -948,7 +948,7 @@ U 1 1 5B88B2E2
 P 7600 3150
 F 0 "SW_C11" V 7600 3102 50  0000 R CNN
 F 1 "SW_Push" V 7555 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 3350 50  0001 C CNN
 F 3 "" H 7600 3350 50  0001 C CNN
 	1    7600 3150
 	0    -1   -1   0   
@@ -972,7 +972,7 @@ U 1 1 5B88B2F1
 P 8150 3150
 F 0 "SW_C12" V 8150 3102 50  0000 R CNN
 F 1 "SW_Push" V 8105 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 3350 50  0001 C CNN
 F 3 "" H 8150 3350 50  0001 C CNN
 	1    8150 3150
 	0    -1   -1   0   
@@ -996,7 +996,7 @@ U 1 1 5B88B300
 P 8700 3150
 F 0 "SW_C13" V 8700 3102 50  0000 R CNN
 F 1 "SW_Push" V 8655 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 3350 50  0001 C CNN
 F 3 "" H 8700 3350 50  0001 C CNN
 	1    8700 3150
 	0    -1   -1   0   
@@ -1020,7 +1020,7 @@ U 1 1 5B88B30F
 P 9250 3150
 F 0 "SW_C14" V 9250 3102 50  0000 R CNN
 F 1 "SW_Push" V 9205 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 3350 50  0001 C CNN
 F 3 "" H 9250 3350 50  0001 C CNN
 	1    9250 3150
 	0    -1   -1   0   
@@ -1044,7 +1044,7 @@ U 1 1 5B88C57E
 P 2100 2350
 F 0 "SW_D1" V 2100 2302 50  0000 R CNN
 F 1 "SW_Push" V 2055 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 2550 50  0001 C CNN
 F 3 "" H 2100 2550 50  0001 C CNN
 	1    2100 2350
 	0    -1   -1   0   
@@ -1068,7 +1068,7 @@ U 1 1 5B88C58D
 P 2650 2350
 F 0 "SW_D2" V 2650 2302 50  0000 R CNN
 F 1 "SW_Push" V 2605 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 2550 50  0001 C CNN
 F 3 "" H 2650 2550 50  0001 C CNN
 	1    2650 2350
 	0    -1   -1   0   
@@ -1092,7 +1092,7 @@ U 1 1 5B88C59C
 P 3200 2350
 F 0 "SW_D3" V 3200 2302 50  0000 R CNN
 F 1 "SW_Push" V 3155 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 2550 50  0001 C CNN
 F 3 "" H 3200 2550 50  0001 C CNN
 	1    3200 2350
 	0    -1   -1   0   
@@ -1116,7 +1116,7 @@ U 1 1 5B88C5AB
 P 3750 2350
 F 0 "SW_D4" V 3750 2302 50  0000 R CNN
 F 1 "SW_Push" V 3705 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 2550 50  0001 C CNN
 F 3 "" H 3750 2550 50  0001 C CNN
 	1    3750 2350
 	0    -1   -1   0   
@@ -1140,7 +1140,7 @@ U 1 1 5B88C5BA
 P 4300 2350
 F 0 "SW_D5" V 4300 2302 50  0000 R CNN
 F 1 "SW_Push" V 4255 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 2550 50  0001 C CNN
 F 3 "" H 4300 2550 50  0001 C CNN
 	1    4300 2350
 	0    -1   -1   0   
@@ -1164,7 +1164,7 @@ U 1 1 5B88C5C9
 P 4850 2350
 F 0 "SW_D6" V 4850 2302 50  0000 R CNN
 F 1 "SWA6" V 4805 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 2550 50  0001 C CNN
 F 3 "" H 4850 2550 50  0001 C CNN
 	1    4850 2350
 	0    -1   -1   0   
@@ -1188,7 +1188,7 @@ U 1 1 5B88C5D8
 P 5400 2350
 F 0 "SW_D7" V 5400 2302 50  0000 R CNN
 F 1 "SW_Push" V 5355 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 2550 50  0001 C CNN
 F 3 "" H 5400 2550 50  0001 C CNN
 	1    5400 2350
 	0    -1   -1   0   
@@ -1212,7 +1212,7 @@ U 1 1 5B88C5E7
 P 5950 2350
 F 0 "SW_D8" V 5950 2302 50  0000 R CNN
 F 1 "SW_Push" V 5905 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 2550 50  0001 C CNN
 F 3 "" H 5950 2550 50  0001 C CNN
 	1    5950 2350
 	0    -1   -1   0   
@@ -1236,7 +1236,7 @@ U 1 1 5B88C5F6
 P 6500 2350
 F 0 "SW_D9" V 6500 2302 50  0000 R CNN
 F 1 "SW_Push" V 6455 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 2550 50  0001 C CNN
 F 3 "" H 6500 2550 50  0001 C CNN
 	1    6500 2350
 	0    -1   -1   0   
@@ -1260,7 +1260,7 @@ U 1 1 5B88C605
 P 7050 2350
 F 0 "SW_D10" V 7050 2302 50  0000 R CNN
 F 1 "SW_Push" V 7005 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 2550 50  0001 C CNN
 F 3 "" H 7050 2550 50  0001 C CNN
 	1    7050 2350
 	0    -1   -1   0   
@@ -1284,7 +1284,7 @@ U 1 1 5B88C614
 P 7600 2350
 F 0 "SW_D11" V 7600 2302 50  0000 R CNN
 F 1 "SW_Push" V 7555 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 2550 50  0001 C CNN
 F 3 "" H 7600 2550 50  0001 C CNN
 	1    7600 2350
 	0    -1   -1   0   
@@ -1308,7 +1308,7 @@ U 1 1 5B88C623
 P 8150 2350
 F 0 "SW_D12" V 8150 2302 50  0000 R CNN
 F 1 "SW_Push" V 8105 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 2550 50  0001 C CNN
 F 3 "" H 8150 2550 50  0001 C CNN
 	1    8150 2350
 	0    -1   -1   0   
@@ -1332,7 +1332,7 @@ U 1 1 5B88C632
 P 8700 2350
 F 0 "SW_D13" V 8700 2302 50  0000 R CNN
 F 1 "SW_Push" V 8655 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 2550 50  0001 C CNN
 F 3 "" H 8700 2550 50  0001 C CNN
 	1    8700 2350
 	0    -1   -1   0   
@@ -1356,7 +1356,7 @@ U 1 1 5B88C641
 P 9250 2350
 F 0 "SW_D14" V 9250 2302 50  0000 R CNN
 F 1 "SW_Push" V 9205 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 2550 50  0001 C CNN
 F 3 "" H 9250 2550 50  0001 C CNN
 	1    9250 2350
 	0    -1   -1   0   
@@ -1380,7 +1380,7 @@ U 1 1 5B88F566
 P 2100 1550
 F 0 "SW_E1" V 2100 1502 50  0000 R CNN
 F 1 "SW_Push" V 2055 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2100 1750 50  0001 C CNN
 F 3 "" H 2100 1750 50  0001 C CNN
 	1    2100 1550
 	0    -1   -1   0   
@@ -1417,7 +1417,7 @@ U 1 1 5B88F584
 P 3200 1550
 F 0 "SW_E3" V 3200 1502 50  0000 R CNN
 F 1 "SW_Push" V 3155 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3200 1750 50  0001 C CNN
 F 3 "" H 3200 1750 50  0001 C CNN
 	1    3200 1550
 	0    -1   -1   0   
@@ -1441,7 +1441,7 @@ U 1 1 5B88F593
 P 3750 1550
 F 0 "SW_E4" V 3750 1502 50  0000 R CNN
 F 1 "SW_Push" V 3705 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 3750 1750 50  0001 C CNN
 F 3 "" H 3750 1750 50  0001 C CNN
 	1    3750 1550
 	0    -1   -1   0   
@@ -1465,7 +1465,7 @@ U 1 1 5B88F5A2
 P 4300 1550
 F 0 "SW_E5" V 4300 1502 50  0000 R CNN
 F 1 "SW_Push" V 4255 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4300 1750 50  0001 C CNN
 F 3 "" H 4300 1750 50  0001 C CNN
 	1    4300 1550
 	0    -1   -1   0   
@@ -1489,7 +1489,7 @@ U 1 1 5B88F5B1
 P 4850 1550
 F 0 "SW_E6" V 4850 1502 50  0000 R CNN
 F 1 "SWA6" V 4805 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 4850 1750 50  0001 C CNN
 F 3 "" H 4850 1750 50  0001 C CNN
 	1    4850 1550
 	0    -1   -1   0   
@@ -1513,7 +1513,7 @@ U 1 1 5B88F5C0
 P 5400 1550
 F 0 "SW_E7" V 5400 1502 50  0000 R CNN
 F 1 "SW_Push" V 5355 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5400 1750 50  0001 C CNN
 F 3 "" H 5400 1750 50  0001 C CNN
 	1    5400 1550
 	0    -1   -1   0   
@@ -1537,7 +1537,7 @@ U 1 1 5B88F5CF
 P 5950 1550
 F 0 "SW_E8" V 5950 1502 50  0000 R CNN
 F 1 "SW_Push" V 5905 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 5950 1750 50  0001 C CNN
 F 3 "" H 5950 1750 50  0001 C CNN
 	1    5950 1550
 	0    -1   -1   0   
@@ -1561,7 +1561,7 @@ U 1 1 5B88F5DE
 P 6500 1550
 F 0 "SW_E9" V 6500 1502 50  0000 R CNN
 F 1 "SW_Push" V 6455 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 6500 1750 50  0001 C CNN
 F 3 "" H 6500 1750 50  0001 C CNN
 	1    6500 1550
 	0    -1   -1   0   
@@ -1585,7 +1585,7 @@ U 1 1 5B88F5ED
 P 7050 1550
 F 0 "SW_E10" V 7050 1502 50  0000 R CNN
 F 1 "SW_Push" V 7005 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7050 1750 50  0001 C CNN
 F 3 "" H 7050 1750 50  0001 C CNN
 	1    7050 1550
 	0    -1   -1   0   
@@ -1609,7 +1609,7 @@ U 1 1 5B88F5FC
 P 7600 1550
 F 0 "SW_E11" V 7600 1502 50  0000 R CNN
 F 1 "SW_Push" V 7555 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 7600 1750 50  0001 C CNN
 F 3 "" H 7600 1750 50  0001 C CNN
 	1    7600 1550
 	0    -1   -1   0   
@@ -1633,7 +1633,7 @@ U 1 1 5B88F60B
 P 8150 1550
 F 0 "SW_E12" V 8150 1502 50  0000 R CNN
 F 1 "SW_Push" V 8105 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8150 1750 50  0001 C CNN
 F 3 "" H 8150 1750 50  0001 C CNN
 	1    8150 1550
 	0    -1   -1   0   
@@ -1657,7 +1657,7 @@ U 1 1 5B88F61A
 P 8700 1550
 F 0 "SW_E13" V 8700 1502 50  0000 R CNN
 F 1 "SW_Push" V 8655 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 8700 1750 50  0001 C CNN
 F 3 "" H 8700 1750 50  0001 C CNN
 	1    8700 1550
 	0    -1   -1   0   
@@ -1681,7 +1681,7 @@ U 1 1 5B88F629
 P 9250 1550
 F 0 "SW_E14" V 9250 1502 50  0000 R CNN
 F 1 "SW_Push" V 9205 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9250 1750 50  0001 C CNN
 F 3 "" H 9250 1750 50  0001 C CNN
 	1    9250 1550
 	0    -1   -1   0   
@@ -1957,7 +1957,7 @@ U 1 1 5B90DD83
 P 9800 4750
 F 0 "SW_A15" V 9800 4702 50  0000 R CNN
 F 1 "SW_Push" V 9755 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 4950 50  0001 C CNN
 F 3 "" H 9800 4950 50  0001 C CNN
 	1    9800 4750
 	0    -1   -1   0   
@@ -1981,7 +1981,7 @@ U 1 1 5B90DD92
 P 9800 3950
 F 0 "SW_B15" V 9800 3902 50  0000 R CNN
 F 1 "SW_Push" V 9755 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 4150 50  0001 C CNN
 F 3 "" H 9800 4150 50  0001 C CNN
 	1    9800 3950
 	0    -1   -1   0   
@@ -2005,7 +2005,7 @@ U 1 1 5B90DDA1
 P 9800 3150
 F 0 "SW_C15" V 9800 3102 50  0000 R CNN
 F 1 "SW_Push" V 9755 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 3350 50  0001 C CNN
 F 3 "" H 9800 3350 50  0001 C CNN
 	1    9800 3150
 	0    -1   -1   0   
@@ -2029,7 +2029,7 @@ U 1 1 5B90DDB0
 P 9800 2350
 F 0 "SW_D15" V 9800 2302 50  0000 R CNN
 F 1 "SW_Push" V 9755 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 2550 50  0001 C CNN
 F 3 "" H 9800 2550 50  0001 C CNN
 	1    9800 2350
 	0    -1   -1   0   
@@ -2053,7 +2053,7 @@ U 1 1 5B90DDBF
 P 9800 1550
 F 0 "SW_E15" V 9800 1502 50  0000 R CNN
 F 1 "SW_Push" V 9755 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 9800 1750 50  0001 C CNN
 F 3 "" H 9800 1750 50  0001 C CNN
 	1    9800 1550
 	0    -1   -1   0   
@@ -2077,7 +2077,7 @@ U 1 1 5B920594
 P 10350 4750
 F 0 "SW_A16" V 10350 4702 50  0000 R CNN
 F 1 "SW_Push" V 10305 4702 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 4950 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 4950 50  0001 C CNN
 F 3 "" H 10350 4950 50  0001 C CNN
 	1    10350 4750
 	0    -1   -1   0   
@@ -2101,7 +2101,7 @@ U 1 1 5B9205A3
 P 10350 3950
 F 0 "SW_B16" V 10350 3902 50  0000 R CNN
 F 1 "SW_Push" V 10305 3902 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 4150 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 4150 50  0001 C CNN
 F 3 "" H 10350 4150 50  0001 C CNN
 	1    10350 3950
 	0    -1   -1   0   
@@ -2125,7 +2125,7 @@ U 1 1 5B9205B2
 P 10350 3150
 F 0 "SW_C16" V 10350 3102 50  0000 R CNN
 F 1 "SW_Push" V 10305 3102 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 3350 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 3350 50  0001 C CNN
 F 3 "" H 10350 3350 50  0001 C CNN
 	1    10350 3150
 	0    -1   -1   0   
@@ -2149,7 +2149,7 @@ U 1 1 5B9205C1
 P 10350 2350
 F 0 "SW_D16" V 10350 2302 50  0000 R CNN
 F 1 "SW_Push" V 10305 2302 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 2550 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 2550 50  0001 C CNN
 F 3 "" H 10350 2550 50  0001 C CNN
 	1    10350 2350
 	0    -1   -1   0   
@@ -2173,7 +2173,7 @@ U 1 1 5B9205D0
 P 10350 1550
 F 0 "SW_E16" V 10350 1502 50  0000 R CNN
 F 1 "SW_Push" V 10305 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 10350 1750 50  0001 C CNN
 F 3 "" H 10350 1750 50  0001 C CNN
 	1    10350 1550
 	0    -1   -1   0   
@@ -2479,7 +2479,7 @@ U 1 1 5B88F575
 P 2650 1550
 F 0 "SW_E2" V 2650 1502 50  0000 R CNN
 F 1 "SW_Push" V 2605 1502 50  0001 R CNN
-F 2 "custom-switch:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 1750 50  0001 C CNN
+F 2 "custom:SW_Cherry_MX1A_1.00u_Plate_with_mounting_hole" H 2650 1750 50  0001 C CNN
 F 3 "" H 2650 1750 50  0001 C CNN
 	1    2650 1550
 	0    -1   -1   0   
